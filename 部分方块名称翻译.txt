@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+翻译优化标准：
+
+对于方块名称：
+
+尽量不去大幅度改动常用方块的翻译，但可对原翻译进行适当修改以便于玩家理解
+如：
+尽量不要将[陀螺仪]改名为[动量轮]，但可将[氢气引擎]改为[氢气发电机]
+
+
+可将某些方块名称改为常用叫法
+如：
+[铰链部件]改为[铰链头]
+[中控方块]改为[投影桌]
+
+
+对于某些方块名称，应当参照英文原文和游戏中的实际表现进行优化
+如：
+[人工重力]原文为[Artifical Mass]， 译文与原文不符，可改为[人工质量块]
+[导弹发射器]原文为[Missile Turret]，且游戏中无法发射可制导的导弹，故可译为[飞弹炮塔]
+
+
+若方块名称与游戏中机制的名称冲突，可对方块名称进行适当修改
+如：
+[安全区]与游戏中的安全区机制名称相同，可改为[安全区方块]
+
+
+对于翻译错误或机翻的译文，应当参照原文、类似方块的译文或游戏中的实际表现进行重新翻译
+如：
+[工业氢气灌]可参照[氢气罐]改为[工业氢气罐]
+[前后]原文为[Beam Block Base]，可参照[Light Armor Corner Base]的译文[斜轻甲角块后]改为[梁块后]
+[兵工厂]为明显的机翻译文,可参照游戏中的表现改为[装备室]
+
+
+在方块名称后需要加入拼音缩写以便查找
+如方块名称中含有字母，可在拼音缩写中将字母保留
+如方块名称中含有方块尺寸，则将方块尺寸移动到拼音后方
+如：
+[天线] => [天线-tx-]
+[霓虹灯管U形] => [霓虹灯管U形-mhdgux-]
+[越野车车轮3x3] => [越野车车轮-yyccl- 3x3]
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+    
+	<!-- ==========方块名称部分========== -->
+
+  <data name="DisplayName_Block_ArmorCenter" xml:space="preserve">
+    <value>防爆门-fbm-</value>
+  </data>
+  <data name="DisplayName_Block_ArmorCorner" xml:space="preserve">
+    <value>防爆门角-fbmj-</value>
+  </data>
+  <data name="DisplayName_Block_ArmorInvCorner" xml:space="preserve">
+    <value>防爆门倒角-fbmdj-</value>
+  </data>
+  <data name="DisplayName_Block_ArmorSide" xml:space="preserve">
+    <value>防爆门边-fbmb-</value>
+  </data>
+  <data name="DisplayName_Block_HalfHeavyArmorBlock" xml:space="preserve">
+    <value>半重甲块-bzjk-</value>
+  </data>
+  <data name="DisplayName_Block_HalfLightArmorBlock" xml:space="preserve">
+    <value>半轻甲块-bqjk-</value>
+  </data>
+  <data name="DisplayName_Block_HalfSlopeHeavyArmorBlock" xml:space="preserve">
+    <value>半斜重甲块-bxzjk-</value>
+  </data>
+  <data name="DisplayName_Block_HalfSlopeLightArmorBlock" xml:space="preserve">
+    <value>半斜轻甲块-bxqjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyAngledArmorCorner" xml:space="preserve">
+    <value>重甲突面角块-zjtmjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyAngledArmorSlope" xml:space="preserve">
+    <value>重甲突面斜块-zjtmxk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorBlock" xml:space="preserve">
+    <value>重甲块-zjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCorner" xml:space="preserve">
+    <value>斜重甲角块-xzjjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCorner2" xml:space="preserve">
+    <value>斜重甲角块-xzjjk-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCorner2Base" xml:space="preserve">
+    <value>斜重甲角块后-xzjjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCorner2BaseSmooth" xml:space="preserve">
+    <value>平滑斜重甲角块后-xzjjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCorner2Smooth" xml:space="preserve">
+    <value>平滑斜重甲角块-phxzjjk-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCorner2Tip" xml:space="preserve">
+    <value>斜重甲角块前-xzjjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCorner2TipSmooth" xml:space="preserve">
+    <value>平滑斜重甲角块前-phxzjjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorInvCorner" xml:space="preserve">
+    <value>斜重甲补角块-xzjbjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorInvCorner2" xml:space="preserve">
+    <value>斜重甲补角块-xzjbjk-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorInvCorner2Base" xml:space="preserve">
+    <value>斜重甲补角块后-xzjbjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorInvCorner2BaseSmooth" xml:space="preserve">
+    <value>平滑斜重甲补角块后-phxzjbjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorInvCorner2Smooth" xml:space="preserve">
+    <value>平滑斜重甲补角块-phxzjbjk-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorInvCorner2Tip" xml:space="preserve">
+    <value>斜重甲补角块前-xzjbjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorInvCorner2TipSmooth" xml:space="preserve">
+    <value>平滑斜重甲补角块前-phxzjbjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlope" xml:space="preserve">
+    <value>斜重甲块-xzjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlope2" xml:space="preserve">
+    <value>斜重甲块-xzjk-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlope2Base" xml:space="preserve">
+    <value>斜重甲块后-xzjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlope2BaseSmooth" xml:space="preserve">
+    <value>平滑斜重甲块后-phxzjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlope2Smooth" xml:space="preserve">
+    <value>平滑斜重甲块-phxzjk-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlope2Tip" xml:space="preserve">
+    <value>斜重甲块前-xzjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlope2TipSmooth" xml:space="preserve">
+    <value>平滑斜重甲块前-phxzjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_HeavyRoundArmorCorner" xml:space="preserve">
+    <value>重甲圆角块-zjyjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyRoundArmorInvCorner" xml:space="preserve">
+    <value>重甲圆补角块-zjybjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyRoundArmorSlope" xml:space="preserve">
+    <value>重甲圆斜块-zjyxk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyRoundedArmorCorner" xml:space="preserve">
+    <value>重甲圆面角块-zjymjk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyRoundedArmorSlope" xml:space="preserve">
+    <value>重甲圆面斜块-zjymjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopeInverted" xml:space="preserve">
+    <value>半斜倒轻甲-bxdqj-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopeInverted" xml:space="preserve">
+    <value>半斜倒重甲-bxdzj-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopeCorner" xml:space="preserve">
+    <value>半斜角轻甲-bxjqj-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopeCorner" xml:space="preserve">
+    <value>半斜角重甲-bxjzj-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopeCornerInverted" xml:space="preserve">
+    <value>半斜角倒轻甲-bxjdqj-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopeCornerInverted" xml:space="preserve">
+    <value>半斜角倒重甲-bxjdzj-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlopedCornerTip" xml:space="preserve">
+    <value>斜角轻甲尖端-xjqjjd-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlopedCornerTip" xml:space="preserve">
+    <value>斜角重甲尖端-xjzjjd-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlopedCornerBase" xml:space="preserve">
+    <value>轻甲斜角基础-qjxjjc-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlopedCornerBase" xml:space="preserve">
+    <value>重甲斜角基础-zjxjjc-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlopedCorner" xml:space="preserve">
+    <value>轻甲斜角-qjxj-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlopedCorner" xml:space="preserve">
+    <value>重甲斜角-zjxj-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopedCornerBase" xml:space="preserve">
+    <value>轻甲半斜角基础-qjbxjjc-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopedCornerBase" xml:space="preserve">
+    <value>重甲半斜角基础-zjbxjjc-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfCorner" xml:space="preserve">
+    <value>轻甲半斜角模块-qjbxjmk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfCorner" xml:space="preserve">
+    <value>重甲半斜角模块-zjbxjmk-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCornerSquare" xml:space="preserve">
+    <value>轻甲尖角模块-qjjjmk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCornerSquare" xml:space="preserve">
+    <value>重甲尖角模块-zjjjmk-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCornerSquareInverted" xml:space="preserve">
+    <value>轻甲方形倒角模块-qjfxdjmk-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCornerSquareInverted" xml:space="preserve">
+    <value>重甲方形倒角模块-zjfxdjmk-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopedCorner" xml:space="preserve">
+    <value>轻甲半斜角-qjbxj-</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopedCorner" xml:space="preserve">
+    <value>重甲半斜角-zzbxj-</value>
+  </data>
+  <data name="DisplayName_Block_LightAngledArmorCorner" xml:space="preserve">
+    <value>轻甲突面角块-qjtmjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightAngledArmorSlope" xml:space="preserve">
+    <value>轻甲突面斜块-qjtmxj-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorBlock" xml:space="preserve">
+    <value>轻甲块-qjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner" xml:space="preserve">
+    <value>斜轻甲角块-xqjjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner2" xml:space="preserve">
+    <value>轻型护甲角块-qxhjjk- 2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner2Base" xml:space="preserve">
+    <value>斜轻甲角块后-xqjjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner2BaseSmooth" xml:space="preserve">
+    <value>平滑斜轻甲角块后-phxqjjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner2Smooth" xml:space="preserve">
+    <value>平滑的轻型护甲角块-phdqxhjjk- 2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner2Tip" xml:space="preserve">
+    <value>斜轻甲角块前-xqjjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner2TipSmooth" xml:space="preserve">
+    <value>平滑斜轻甲角块前-phxqjjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner3" xml:space="preserve">
+    <value>轻型护甲角块-qxhjjk- 3x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCorner3Smooth" xml:space="preserve">
+    <value>平滑的轻型护甲角块-phdqxhjjk- 3x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner" xml:space="preserve">
+    <value>斜轻甲补角块-xqjbjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner2" xml:space="preserve">
+    <value>缺角的轻型护甲块-qjdqxhjk- 2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner2Base" xml:space="preserve">
+    <value>斜轻甲补角块后-xqjbjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner2BaseSmooth" xml:space="preserve">
+    <value>平滑斜轻甲补角块后-phxqjbjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner2Smooth" xml:space="preserve">
+    <value>平滑缺角的轻型护甲块-phqjdqxhjk- 2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner2Tip" xml:space="preserve">
+    <value>斜轻甲补角块前-xqjbjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner2TipSmooth" xml:space="preserve">
+    <value>平滑斜轻甲补角块前-phxqjbjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner3" xml:space="preserve">
+    <value>缺角的轻型护甲块-qjdqxhjk- 3x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorInvCorner3Smooth" xml:space="preserve">
+    <value>平滑缺角的轻型护甲块-phqjdqxhjk- 3x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope" xml:space="preserve">
+    <value>斜轻甲块-xqjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope2" xml:space="preserve">
+    <value>轻型护甲坡块-qxhjpk- 2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope2Base" xml:space="preserve">
+    <value>斜轻甲块后-xqjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope2BaseSmooth" xml:space="preserve">
+    <value>平滑斜轻甲块后-xqjkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope2Smooth" xml:space="preserve">
+    <value>平滑的轻型护甲坡块-phdqxhjpk- 2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope2Tip" xml:space="preserve">
+    <value>斜轻甲块前-xqjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope2TipSmooth" xml:space="preserve">
+    <value>平滑斜轻甲块前-phxqjkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope3" xml:space="preserve">
+    <value>轻型护甲坡块-qxhjpk- 3x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlope3Smooth" xml:space="preserve">
+    <value>平滑轻型护甲坡块-phdqxhjpk- 3x1x1</value>
+  </data>
+  <data name="DisplayName_Block_LightRoundArmorCorner" xml:space="preserve">
+    <value>轻甲圆角块-qjyjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightRoundArmorInvCorner" xml:space="preserve">
+    <value>轻甲圆补角块-qjybjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightRoundArmorSlope" xml:space="preserve">
+    <value>轻甲圆斜块-qjyxk-</value>
+  </data>
+  <data name="DisplayName_Block_LightRoundedArmorCorner" xml:space="preserve">
+    <value>轻甲圆面角块-qjqgjk-</value>
+  </data>
+  <data name="DisplayName_Block_LightRoundedArmorSlope" xml:space="preserve">
+    <value>轻甲圆面斜块-qjymxk-</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+    <data name="DisplayName_Block_AdvancedRotor" xml:space="preserve">
+    <value>高级转子-gjzz-</value>
+  </data>
+  <data name="DisplayName_Block_AdvancedRotorPart" xml:space="preserve">
+    <value>高级转子头-gjzzt-</value>
+  </data>
+  <data name="DisplayName_Block_AirtightHangarDoor" xml:space="preserve">
+    <value>气密机库门-qmjkm-</value>
+  </data>
+  <data name="DisplayName_Block_AirtightSlideDoor" xml:space="preserve">
+    <value>滑动门-hdm-</value>
+  </data>
+  <data name="DisplayName_Block_AirVent" xml:space="preserve">
+    <value>排气扇-pqs-</value>
+  </data>
+  <data name="DisplayName_Block_Ammo_Assembler" xml:space="preserve">
+    <value>弹药组装机-dyzzj-</value>
+  </data>
+  <data name="DisplayName_Block_Antenna" xml:space="preserve">
+    <value>天线-tx-</value>
+  </data>
+  <data name="DisplayName_Block_Arc_Furnace" xml:space="preserve">
+    <value>电弧炉-dhl-</value>
+  </data>
+
+  <data name="DisplayName_Block_BasicAssembler" xml:space="preserve">
+    <value>简易装配机-jyzpj-</value>
+  </data>
+  <data name="DisplayName_Block_Assembler" xml:space="preserve">
+    <value>装配机-zpj-</value>
+  </data>
+  <data name="DisplayName_Block_Base_Components_Assembler" xml:space="preserve">
+    <value>基础装配机-jczpj-</value>
+  </data>
+  <data name="DisplayName_Block_Battery" xml:space="preserve">
+    <value>电池-dc-</value>
+  </data>
+  <data name="DisplayName_Block_Beacon" xml:space="preserve">
+    <value>信标-xb-</value>
+  </data>
+  <data name="DisplayName_Block_Big_Arc_Furnace" xml:space="preserve">
+    <value>大型电弧炉-dxdhl-</value>
+  </data>
+  <data name="DisplayName_Block_Big_Gas_Centrifugal_Refinery" xml:space="preserve">
+    <value>大型气体离心熔炼厂-dxqtlxrlc-</value>
+  </data>
+  <data name="DisplayName_Block_Big_Precious_Furnace" xml:space="preserve">
+    <value>大型贵金属熔炉-dxgjsrl-</value>
+  </data>
+  <data name="DisplayName_Block_Big_Solids_Refinery" xml:space="preserve">
+    <value>大型固体熔炼厂-dxgtrlc-</value>
+  </data>
+  <data name="DisplayName_Block_ButtonPanel" xml:space="preserve">
+    <value>按钮面板-anmb-</value>
+  </data>
+  <data name="DisplayName_Block_Camera" xml:space="preserve">
+    <value>摄像机-sxj-</value>
+  </data>
+  <data name="DisplayName_Block_Cockpit1" xml:space="preserve">
+    <value>驾驶舱-jsc-</value>
+  </data>
+  <data name="DisplayName_Block_Cockpit2" xml:space="preserve">
+    <value>控制站-kzz-</value>
+  </data>
+  <data name="DisplayName_Block_Cockpit3" xml:space="preserve">
+    <value>飞行座椅-fxzy-</value>
+  </data>
+  <data name="DisplayName_Block_Collector" xml:space="preserve">
+    <value>收集器-sjq-</value>
+  </data>
+  <data name="DisplayName_Block_Connector" xml:space="preserve">
+    <value>连接器-ljq-</value>
+  </data>
+  <data name="DisplayName_Block_ConnectorSmall" xml:space="preserve">
+    <value>喷射器-psq-</value>
+  </data>
+  <data name="DisplayName_Block_Construction_Components_Assembler" xml:space="preserve">
+    <value>建材组装机-jczzj-</value>
+  </data>
+  <data name="DisplayName_Block_ControlPanel" xml:space="preserve">
+    <value>控制面板-kzmb-</value>
+  </data>
+  <data name="DisplayName_Block_Conveyor" xml:space="preserve">
+    <value>输送机-ssj-</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorFrame" xml:space="preserve">
+    <value>输送机框架-ssjkj-</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorSmall" xml:space="preserve">
+    <value>小型输送机-xxssj-</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorSorter" xml:space="preserve">
+    <value>分拣传输机-fjcsj-</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorTube" xml:space="preserve">
+    <value>输送管-ssg-</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorTubeCurved" xml:space="preserve">
+    <value>弯曲输送管道-wqssgd-</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorTubeCurvedSmall" xml:space="preserve">
+    <value>小型弯曲输送管道-xxwqssgd-</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorTubeMedium" xml:space="preserve">
+    <value>输送方块-ssfk-</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorTubeSmall" xml:space="preserve">
+    <value>小型输送管道-xxssgd-</value>
+  </data>
+  <data name="DisplayName_Block_CornerLCD" xml:space="preserve">
+    <value>条型倾斜液晶屏顶-txqxyjpd-</value>
+  </data>
+  <data name="DisplayName_Block_CornerLCD2" xml:space="preserve">
+    <value>条型倾斜液晶屏底-txqxyjpd-</value>
+  </data>
+  <data name="DisplayName_Block_CornerLCDFlatBottom" xml:space="preserve">
+    <value>条型液晶屏底-txyjpd-</value>
+  </data>
+  <data name="DisplayName_Block_CornerLCDFlatTop" xml:space="preserve">
+    <value>条型液晶屏顶-txyjpd-</value>
+  </data>
+  <data name="DisplayName_Block_CornerLight" xml:space="preserve">
+    <value>角灯-jd-</value>
+  </data>
+  <data name="DisplayName_Block_CornerLightDouble" xml:space="preserve">
+    <value>角灯 -一对-jdyd-</value>
+  </data>
+  <data name="DisplayName_Block_CryoChamber" xml:space="preserve">
+    <value>休眠仓-xmc-</value>
+  </data>
+  <data name="DisplayName_Block_DebugSphere1" xml:space="preserve">
+    <value>材质测试模块1-czcsmk-</value>
+  </data>
+  <data name="DisplayName_Block_DebugSphere2" xml:space="preserve">
+    <value>材质测试模块2-无金属-czcsmk-</value>
+  </data>
+  <data name="DisplayName_Block_DebugSphere3" xml:space="preserve">
+    <value>材质测试模块3-修复光影-czcsmk-</value>
+  </data>
+  <data name="DisplayName_Block_Decoy" xml:space="preserve">
+    <value>诱饵-ye-</value>
+  </data>
+  <data name="DisplayName_Block_DiagonalWindow" xml:space="preserve">
+    <value>斜窗-xc-</value>
+  </data>
+  <data name="DisplayName_Block_Door" xml:space="preserve">
+    <value>门-m-</value>
+  </data>
+  <data name="DisplayName_Block_Drill" xml:space="preserve">
+    <value>钻头-zt-</value>
+  </data>
+  <data name="DisplayName_Block_EffectivenessModule" xml:space="preserve">
+    <value>精炼增效模块-jlzxmk-</value>
+  </data>
+  <data name="DisplayName_Block_Electronics_Assembler" xml:space="preserve">
+    <value>电气装配机-dqzpj-</value>
+  </data>
+  <data name="DisplayName_Block_FighterCockpit" xml:space="preserve">
+    <value>歼击机座舱-jjjzc-</value>
+  </data>
+  <data name="DisplayName_Block_FoodDispenser" xml:space="preserve">
+    <value>售货机-shj-</value>
+  </data>
+  <data name="DisplayName_Block_LabEquipment" xml:space="preserve">
+    <value>实验室设备-syssb-</value>
+  </data>
+  <data name="DisplayName_Block_Shower" xml:space="preserve">
+    <value>浴室-ys-</value>
+  </data>
+  <data name="DisplayName_Block_Jukebox" xml:space="preserve">
+    <value>点唱机-dcj-</value>
+  </data>
+  <data name="DisplayName_Block_WindowWall" xml:space="preserve">
+    <value>护甲窗-hjc-</value>
+  </data>
+  <data name="DisplayName_Block_WindowWallLeft" xml:space="preserve">
+    <value>护甲窗左-hjcz-</value>
+  </data>
+  <data name="DisplayName_Block_WindowWallRight" xml:space="preserve">
+    <value>护甲窗右-hjcy-</value>
+  </data>
+  <data name="DisplayName_Block_MedicalStation" xml:space="preserve">
+    <value>医疗站-ylz-</value>
+  </data>
+  <data name="DisplayName_Block_TransparentLCD" xml:space="preserve">
+    <value>透明液晶屏-tmyjp-</value>
+  </data>
+  <data name="DisplayName_Block_RailingStraight" xml:space="preserve">
+    <value>直护栏-zhl-</value>
+  </data>
+  <data name="DisplayName_Block_RailingDouble" xml:space="preserve">
+    <value>双层护栏-schl-</value>
+  </data>
+  <data name="DisplayName_Block_RailingCorner" xml:space="preserve">
+    <value>护栏角-hlj-</value>
+  </data>
+  <data name="DisplayName_Block_RailingDiagonal" xml:space="preserve">
+    <value>斜护栏-xhl-</value>
+  </data>
+  <data name="DisplayName_Block_GratedCatwalk" xml:space="preserve">
+    <value>栅格式过道-sgsgd-</value>
+  </data>
+  <data name="DisplayName_Block_GratedCatwalkCorner" xml:space="preserve">
+    <value>栅格式过道角-sgsgdj-</value>
+  </data>
+  <data name="DisplayName_Block_GratedCatwalkStraight" xml:space="preserve">
+    <value>栅格式双护栏过道-sgsshlgd-</value>
+  </data>
+  <data name="DisplayName_Block_GratedCatwalkWall" xml:space="preserve">
+    <value>栅格式单护栏过道-sgsdhlgd-</value>
+  </data>
+  <data name="DisplayName_Block_GratedStairs" xml:space="preserve">
+    <value>栅格式楼梯-sgslt-</value>
+  </data>
+  <data name="DisplayName_Block_GratedHalfStairs" xml:space="preserve">
+    <value>栅格式右半楼梯-sgsyblt-</value>
+  </data>
+  
+    <data name="DisplayName_Block_GratedCatwalkRailingEnd" xml:space="preserve">
+    <value>栅格式过道末端-sgsgdmd-</value>
+  </data>
+  <data name="DisplayName_Block_GratedCatwalkRailingHalfLeft" xml:space="preserve">
+    <value>栅格式左过道-sgszgd-</value>
+  </data>
+  <data name="DisplayName_Block_GratedCatwalkRailingHalfRight" xml:space="preserve">
+    <value>栅格式右过道-sgsygd-</value>
+  </data>
+  <data name="DisplayName_Block_GratedHalfStairsMirrored" xml:space="preserve">
+    <value>栅格式左半楼梯-sgszblt-</value>
+  </data>
+  <data name="DisplayName_Block_RailingHalfLeft" xml:space="preserve">
+    <value>左半护栏-zbhl-</value>
+  </data>
+  <data name="DisplayName_Block_RailingHalfRight" xml:space="preserve">
+    <value>右半护栏-ybhl-</value>
+  </data>
+  
+  <data name="DisplayName_Block_RotatingLight" xml:space="preserve">
+    <value>旋转灯-xzd-</value>
+  </data>
+  <data name="DisplayName_Block_Freight1" xml:space="preserve">
+    <value>货物1-hw-</value>
+  </data>
+  <data name="DisplayName_Block_Freight2" xml:space="preserve">
+    <value>货物2-hw-</value>
+  </data>
+  <data name="DisplayName_Block_Freight3" xml:space="preserve">
+    <value>货物3-hw-</value>
+  </data>
+  <data name="DisplayName_Block_FullCoverWall" xml:space="preserve">
+    <value>全掩体墙-qytq-</value>
+  </data>
+  <data name="DisplayName_Block_GatlingGun" xml:space="preserve">
+    <value>加特林机枪-jtljq-</value>
+  </data>
+  <data name="DisplayName_Block_GatlingTurret" xml:space="preserve">
+    <value>加特林炮塔-jtlpt-</value>
+  </data>
+  <data name="DisplayName_Block_GravityGenerator" xml:space="preserve">
+    <value>重力发生器-zlfsq-</value>
+  </data>
+  <data name="DisplayName_Block_GravityGeneratorSphere" xml:space="preserve">
+    <value>球形重力发生器-qxzlfsq-</value>
+  </data>
+  <data name="DisplayName_Block_Gyroscope" xml:space="preserve">
+    <value>陀螺仪-tly-</value>
+  </data>
+  <data name="DisplayName_Block_HalfCoverWall" xml:space="preserve">
+    <value>半掩体墙-bytq-</value>
+  </data>
+
+  <data name="DisplayName_Block_HydrogenTank" xml:space="preserve">
+    <value>氢气罐-qqg-</value>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmall" xml:space="preserve">
+    <value>小型氢气罐-xxqqg-</value>
+  </data>
+  <data name="DisplayName_Block_InteriorLight" xml:space="preserve">
+    <value>室内灯-snd-</value>
+  </data>
+  <data name="DisplayName_Block_InteriorPillar" xml:space="preserve">
+    <value>室内支撑柱-snzcz-</value>
+  </data>
+  <data name="DisplayName_Block_InteriorTurret" xml:space="preserve">
+    <value>室内炮塔-snpt-</value>
+  </data>
+  <data name="DisplayName_Block_InteriorWall" xml:space="preserve">
+    <value>室内墙-snq-</value>
+  </data>
+  <data name="DisplayName_Block_JumpDrive" xml:space="preserve">
+    <value>跃迁引擎-yqyq-</value>
+  </data>
+  <data name="DisplayName_Block_LandingGear" xml:space="preserve">
+    <value>起落架-qlj-</value>
+  </data>
+  <data name="DisplayName_Block_LargeAtmoThrust" xml:space="preserve">
+    <value>大型空气动力推进器-dxkqdltjq-</value>
+  </data>
+  <data name="DisplayName_Block_LargeAtmoThrustSciFi" xml:space="preserve">
+    <value>科幻版大型空气推进器-khbdxkqtjq-</value>
+  </data>
+  <data name="DisplayName_Block_LargeCargoContainer" xml:space="preserve">
+    <value>大型货物储存箱-dxhwccx-</value>
+  </data>
+  <data name="DisplayName_Block_LargeHydrogenThrust" xml:space="preserve">
+    <value>大型氢动力推进器-dxqdltjq-</value>
+  </data>
+  <data name="DisplayName_Block_LargeReactor" xml:space="preserve">
+    <value>大型反应堆-dxfyd-</value>
+  </data>
+  <data name="DisplayName_Block_LargeThrust" xml:space="preserve">
+    <value>大型离子推进器-dxlztjq-</value>
+  </data>
+  <data name="DisplayName_Block_LaserAntenna" xml:space="preserve">
+    <value>激光天线-jgtx-</value>
+  </data>
+
+  <data name="DisplayName_Block_MedicalRoom" xml:space="preserve">
+    <value>医疗室-yls-</value>
+  </data>
+  <data name="DisplayName_Block_MediumCargoContainer" xml:space="preserve">
+    <value>中型货物储存箱-zxhwccx-</value>
+  </data>
+  <data name="DisplayName_Block_MergeBlock" xml:space="preserve">
+    <value>合并块-hbk-</value>
+  </data>
+  <data name="DisplayName_Block_MissileTurret" xml:space="preserve">
+    <value>飞弹炮塔-fdpt-</value>
+  </data>
+  <data name="DisplayName_Block_OpenCockpitLarge" xml:space="preserve">
+    <value>控制座椅-kzzy-</value>
+  </data>
+  <data name="DisplayName_Block_OpenCockpitSmall" xml:space="preserve">
+    <value>小型控制座椅-xxkzzy-</value>
+  </data>
+  <data name="DisplayName_Block_OreDetector" xml:space="preserve">
+    <value>矿物探测器-kwtcq-</value>
+  </data>
+  <data name="DisplayName_Block_OxygenFarm" xml:space="preserve">
+    <value>氧气农场-yqnc-</value>
+  </data>
+  <data name="DisplayName_Block_OxygenGenerator" xml:space="preserve">
+    <value>氧气/氢气制造机-qyzzj-</value>
+  </data>
+  <data name="DisplayName_Block_OxygenTank" xml:space="preserve">
+    <value>氧气罐-yqg-</value>
+  </data>
+  <data name="DisplayName_Block_ParachuteHatch" xml:space="preserve">
+    <value>降落伞开关-jlskg-</value>
+  </data>
+  <data name="DisplayName_Block_Passage" xml:space="preserve">
+    <value>通道-td-</value>
+  </data>
+  <data name="DisplayName_Block_PassengerSeat" xml:space="preserve">
+    <value>乘客座椅-ckzy-</value>
+  </data>
+  <data name="DisplayName_Block_PistonBase" xml:space="preserve">
+    <value>活塞-hs-</value>
+  </data>
+  <data name="DisplayName_Block_PistonTop" xml:space="preserve">
+    <value>活塞头-hst-</value>
+  </data>
+  <data name="DisplayName_Block_PowerEfficiencyModule" xml:space="preserve">
+    <value>节能模块-jnmk-</value>
+  </data>
+  <data name="DisplayName_Block_ProductivityModule" xml:space="preserve">
+    <value>产能模块-cnmk-</value>
+  </data>
+  <data name="DisplayName_Block_Projector" xml:space="preserve">
+    <value>投影仪-tyy-</value>
+  </data>
+  <data name="DisplayName_Block_Ramp" xml:space="preserve">
+    <value>斜坡-xp-</value>
+  </data>
+  <data name="DisplayName_Block_Refinery" xml:space="preserve">
+    <value>精炼厂-jlc-</value>
+  </data>
+  <data name="DisplayName_Block_ReflectorLight" xml:space="preserve">
+    <value>聚光灯-jgd-</value>
+  </data>
+  <data name="DisplayName_Block_RemoteControl" xml:space="preserve">
+    <value>远程控制器-yckzq-</value>
+  </data>
+  <data name="DisplayName_Block_RocketLauncher" xml:space="preserve">
+    <value>火箭发射器-hjfsq-</value>
+  </data>
+  <data name="DisplayName_Block_Rotor" xml:space="preserve">
+    <value>转子-zz-</value>
+  </data>
+  <data name="DisplayName_Block_RotorPart" xml:space="preserve">
+    <value>转子头-zzt-</value>
+  </data>
+  <data name="DisplayName_Block_Sensor" xml:space="preserve">
+    <value>探测器-tcq-</value>
+  </data>
+  <data name="DisplayName_Block_ShipGrinder" xml:space="preserve">
+    <value>切割机-qgj-</value>
+  </data>
+  <data name="DisplayName_Block_ShipWelder" xml:space="preserve">
+    <value>焊接器-hjq-</value>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrust" xml:space="preserve">
+    <value>小型空气动力推进器-xxkqdltjq-</value>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustSciFi" xml:space="preserve">
+    <value>科幻版空气动力推进器-khbkqdltjq-</value>
+  </data>
+  <data name="DisplayName_Block_SmallCargoContainer" xml:space="preserve">
+    <value>小型货物储存箱-xxhwccx-</value>
+  </data>
+  <data name="DisplayName_Block_SmallConveyorSorter" xml:space="preserve">
+    <value>小型分拣传输机-xxfjcsj-</value>
+  </data>
+  <data name="DisplayName_Block_SmallHydrogenThrust" xml:space="preserve">
+    <value>氢气推进器-qqtjq-</value>
+  </data>
+  <data name="DisplayName_Block_SmallReactor" xml:space="preserve">
+    <value>小型反应堆-xxfyd-</value>
+  </data>
+  <data name="DisplayName_Block_SmallRocketLauncherReload" xml:space="preserve">
+    <value>可装填火箭发射器-kzthjfsq-</value>
+  </data>
+  <data name="DisplayName_Block_SmallThrust" xml:space="preserve">
+    <value>小型离子推进器-xxlztjq-</value>
+  </data>
+  <data name="DisplayName_Block_SolarPanel" xml:space="preserve">
+    <value>太阳能板-tynb-</value>
+  </data>
+  <data name="DisplayName_Block_SoundBlock" xml:space="preserve">
+    <value>音效方块-yxfk-</value>
+  </data>
+  <data name="DisplayName_Block_SpaceBall" xml:space="preserve">
+    <value>空间球-kjq-</value>
+  </data>
+  <data name="DisplayName_Block_Stairs" xml:space="preserve">
+    <value>楼梯-lt-</value>
+  </data>
+  <data name="DisplayName_Block_SteelCatwalk" xml:space="preserve">
+    <value>钢制单边护墙通道-gzdbhqtd-</value>
+  </data>
+  <data name="DisplayName_Block_SteelCatwalkCorner" xml:space="preserve">
+    <value>钢制通道角-gztdj-</value>
+  </data>
+  <data name="DisplayName_Block_SteelCatwalkPlate" xml:space="preserve">
+    <value>钢制通道板-gztdb-</value>
+  </data>
+  <data name="DisplayName_Block_SteelCatwalkTwoSides" xml:space="preserve">
+    <value>钢制双边护墙通道-gzsbhqtd-</value>
+  </data>
+  <data name="DisplayName_Block_Suspension1x1" xml:space="preserve">
+    <value>车轮悬架-clxj- 1x1右</value>
+  </data>
+  <data name="DisplayName_Block_Suspension1x1mirrored" xml:space="preserve">
+    <value>车轮悬架-clxj- 1x1左</value>
+  </data>
+  <data name="DisplayName_Block_Suspension3x3" xml:space="preserve">
+    <value>车轮悬架-clxj- 3x3右</value>
+  </data>
+  <data name="DisplayName_Block_Suspension3x3mirrored" xml:space="preserve">
+    <value>车轮悬架-clxj- 3x3左</value>
+  </data>
+  <data name="DisplayName_Block_Suspension5x5" xml:space="preserve">
+    <value>车轮悬架-clxj- 5x5右</value>
+  </data>
+  <data name="DisplayName_Block_Suspension5x5mirrored" xml:space="preserve">
+    <value>车轮悬架-clxj- 5x5左</value>
+  </data>
+  <data name="DisplayName_Block_TextPanel" xml:space="preserve">
+    <value>文本面板-wbmb-</value>
+  </data>
+  <data name="DisplayName_Block_TimerBlock" xml:space="preserve">
+    <value>定时器块-dsqk-</value>
+  </data>
+  <data name="DisplayName_Block_VerticalCen" xml:space="preserve">
+    <value>中心窗口-zxck-</value>
+  </data>
+  <data name="DisplayName_Block_VerticalWindow" xml:space="preserve">
+    <value>垂直窗口-czck-</value>
+  </data>
+  <data name="DisplayName_Block_VirtualMass" xml:space="preserve">
+    <value>人工质量-rgzl-</value>
+  </data>
+  <data name="DisplayName_Block_Warhead" xml:space="preserve">
+    <value>弹头-dt-</value>
+  </data>
+  <data name="DisplayName_Block_Wheel1x1" xml:space="preserve">
+    <value>轮子-lz- 1x1</value>
+  </data>
+  <data name="DisplayName_Block_Wheel1x1mirrored" xml:space="preserve">
+    <value>轮子-lz- 1x1</value>
+  </data>
+  <data name="DisplayName_Block_Wheel3x3" xml:space="preserve">
+    <value>轮子-lz- 3x3</value>
+  </data>
+  <data name="DisplayName_Block_Wheel3x3mirrored" xml:space="preserve">
+    <value>轮子-lz- 3x3</value>
+  </data>
+  <data name="DisplayName_Block_Wheel5x5" xml:space="preserve">
+    <value>轮子-lz- 5x5</value>
+  </data>
+  <data name="DisplayName_Block_Wheel5x5mirrored" xml:space="preserve">
+    <value>轮子-lz- 5x5</value>
+  </data>
+  <data name="DisplayName_Block_Window1x1Face" xml:space="preserve">
+    <value>窗户 1x1 正斜三角 -ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x1Flat" xml:space="preserve">
+    <value>窗户 1x1 平面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x1FlatInv" xml:space="preserve">
+    <value>窗户 1x1 倒置-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x1FaceInv" xml:space="preserve">
+    <value>窗户 1x1 倒斜三角-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x1Side" xml:space="preserve">
+    <value>窗户 1x1 侧面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x1SideInv" xml:space="preserve">
+    <value>窗户 1x1 侧面倒置-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x1Slope" xml:space="preserve">
+    <value>窗户 1x1 斜面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2Face" xml:space="preserve">
+    <value>窗户 1x2 正斜三角-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2Flat" xml:space="preserve">
+    <value>窗户 1x2 平面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2FlatInv" xml:space="preserve">
+    <value>窗户 1x2 平面倒置-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2FaceInv" xml:space="preserve">
+    <value>窗户 1x2 倒斜三角-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2SideLeft" xml:space="preserve">
+    <value>窗户 1x2 左侧面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2SideLeftInv" xml:space="preserve">
+    <value>窗户 1x2 左侧面倒置-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2SideRight" xml:space="preserve">
+    <value>窗户 1x2 左侧面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2SideRightInv" xml:space="preserve">
+    <value>窗户 1x2 右侧面倒置-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window1x2Slope" xml:space="preserve">
+    <value>窗户 1x2 斜面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window2x3Flat" xml:space="preserve">
+    <value>窗户 2x3 平面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window2x3FlatInv" xml:space="preserve">
+    <value>窗户 2x3 倒置-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window3x3Flat" xml:space="preserve">
+    <value>窗户 3x3 平面-ch-</value>
+  </data>
+  <data name="DisplayName_Block_Window3x3FlatInv" xml:space="preserve">
+    <value>窗户 3x3 倒置-ch-</value>
+  </data>
+  
+  
+    </data>
+  <data name="DisplayName_Block_Bathroom" xml:space="preserve">
+    <value>厕所2-cs-</value>
+  </data>
+  <data name="DisplayName_Block_BathroomOpen" xml:space="preserve">
+    <value>厕所-cs-</value>
+  </data>
+  <data name="DisplayName_Block_Bed" xml:space="preserve">
+    <value>床-c-</value>
+  </data>
+  <data name="DisplayName_Block_CockpitIndustrial" xml:space="preserve">
+    <value>工业驾驶舱-gyjsc-</value>
+  </data>
+  <data name="DisplayName_Block_Console" xml:space="preserve">
+    <value>投影桌-tyz-</value>
+  </data>
+  <data name="DisplayName_Block_Couch" xml:space="preserve">
+    <value>沙发-sf-</value>
+  </data>
+  <data name="DisplayName_Block_CouchCorner" xml:space="preserve">
+    <value>沙发角-sfj-</value>
+  </data>
+  <data name="DisplayName_Block_Desk" xml:space="preserve">
+    <value>桌椅-zy-</value>
+  </data>
+  <data name="DisplayName_Block_DeskCorner" xml:space="preserve">
+    <value>桌椅角-zyj-</value>
+  </data>
+  <data name="DisplayName_Block_DeskChairless" xml:space="preserve">
+    <value>桌子-zz-</value>
+  </data>
+  <data name="DisplayName_Block_DeskChairlessCorner" xml:space="preserve">
+    <value>桌角-zj-</value>
+  </data>
+  <data name="DisplayName_Block_Kitchen" xml:space="preserve">
+    <value>厨房-cf-</value>
+  </data>
+  <data name="DisplayName_Block_LockerRoom" xml:space="preserve">
+    <value>装备室-zbs-</value>
+  </data>
+  <data name="DisplayName_Block_Lockers" xml:space="preserve">
+    <value>柜子-gz-</value>
+  </data>
+  <data name="DisplayName_Block_Planters" xml:space="preserve">
+    <value>种植盆-zzp-</value>
+  </data>
+  <data name="DisplayName_Block_Toilet" xml:space="preserve">
+    <value>马桶-mt-</value>
+  </data>
+  <data name="DisplayName_Block_LockerRoomCorner" xml:space="preserve">
+    <value>装备柜-zbg-</value>
+  </data>
+  <data name="DisplayName_Block_SafeZone" xml:space="preserve">
+    <value>安全区发生器-aqqfsq-</value>
+  </data>
+  
+  
+  <data name="DisplayName_Block_DeadBody01" xml:space="preserve">
+    <value>死亡的工程师1-swdgcs-</value>
+  </data>
+  <data name="DisplayName_Block_DeadBody02" xml:space="preserve">
+    <value>死亡的工程师2-swdgcs-</value>
+  </data>
+  <data name="DisplayName_Block_DeadBody03" xml:space="preserve">
+    <value>死亡的工程师3-swdgcs-</value>
+  </data>
+  <data name="DisplayName_Block_DeadBody04" xml:space="preserve">
+    <value>死亡的工程师4-swdgcs-</value>
+  </data>
+  <data name="DisplayName_Block_DeadBody05" xml:space="preserve">
+    <value>死亡的工程师5-swdgcs-</value>
+  </data>
+  <data name="DisplayName_Block_DeadBody06" xml:space="preserve">
+    <value>死亡的工程师6-swdgcs-</value>
+  </data>
+  
+    <data name="DisplayName_LCD_Panel3x3" xml:space="preserve">
+    <value>大型液晶面板-dxyjmb- 3x3</value>
+  </data>
+  <data name="DisplayName_LCD_Panel5x3" xml:space="preserve">
+    <value>大型液晶面板-dxyjmb- 5x3</value>
+  </data>
+  <data name="DisplayName_LCD_Panel5x5" xml:space="preserve">
+    <value>大型液晶面板-dxyjmb- 5x5</value>
+  </data>
+  
+
+  <data name="DisplayName_Block_NeonTubesBendDown" xml:space="preserve">
+    <value>霓虹灯管下1-mhdgx-</value>
+  </data>
+  <data name="DisplayName_Block_NeonTubesBendUp" xml:space="preserve">
+    <value>霓虹灯管上-mhdgs-</value>
+  </data>
+  <data name="DisplayName_Block_NeonTubesCorner" xml:space="preserve">
+    <value>霓虹灯管角-mhdgj-</value>
+  </data>
+  <data name="DisplayName_Block_NeonTubesStraight1" xml:space="preserve">
+    <value>直霓虹灯管1-zmhdg-</value>
+  </data>
+  <data name="DisplayName_Block_NeonTubesStraight2" xml:space="preserve">
+    <value>直霓虹灯管2-zmhdg-</value>
+  </data>
+  <data name="DisplayName_Block_NeonTubesStraightEnd1" xml:space="preserve">
+    <value>霓虹灯管末端1-mhdgmd-</value>
+  </data>
+  <data name="DisplayName_Block_NeonTubesStraightEnd2" xml:space="preserve">
+    <value>霓虹灯管末端2-mhdgmd-</value>
+  </data>
+  <data name="DisplayName_Block_NeonTubesU" xml:space="preserve">
+    <value>霓虹灯管U形-mhdgux-</value>
+  </data>
+  
+    <data name="DisplayName_Block_SciFiButtonPanel" xml:space="preserve">
+    <value>科幻按钮面板-khanmb-</value>
+  </data>
+  
+  
+    <data name="DisplayName_Block_NeonTubesStraightDown" xml:space="preserve">
+    <value>霓虹灯管下2-mhdgx-</value>
+  </data>
+  <data name="DisplayName_Block_SciFiButtonTerminal" xml:space="preserve">
+    <value>科幻按钮终端-khanzd-</value>
+  </data>
+  <data name="DisplayName_Block_LargeHinge" xml:space="preserve">
+    <value>铰链-jl-</value>
+  </data>
+  <data name="DisplayName_Block_MediumHinge" xml:space="preserve">
+    <value>大型铰链-dxjl-</value>
+  </data>
+  <data name="DisplayName_Block_SmallHinge" xml:space="preserve">
+    <value>铰链-jl-</value>
+  </data>
+    <data name="DisplayName_Block_LargeHingeHead" xml:space="preserve">
+    <value>铰链头-jlt-</value>
+  </data>
+  <data name="DisplayName_Block_MediumHingeHead" xml:space="preserve">
+    <value>大型铰链头-dxjlt-</value>
+  </data>
+  <data name="DisplayName_Block_SmallHingeHead" xml:space="preserve">
+    <value>铰链头-jlt-</value>
+  </data>
+  
+  <data name="DisplayName_Block_SideDoor" xml:space="preserve">
+    <value>科幻滑动门-khhdm-</value>
+  </data>
+  
+  <data name="DisplayName_Block_BarCounter" xml:space="preserve">
+    <value>吧台-bt-</value>
+  </data>
+  <data name="DisplayName_Block_BarCounterCorner" xml:space="preserve">
+    <value>吧台角-btj-</value>
+  </data>
+  <data name="DisplayName_Block_LargeThrustSciFi" xml:space="preserve">
+    <value>科幻版大型离子推进器-khbdxlztjq-</value>
+  </data>
+  <data name="DisplayName_Block_SmallThrustSciFi" xml:space="preserve">
+    <value>科幻版离子推进器-khblztjq-</value>
+  </data>
+  
+  <data name="DisplayName_Block_ExhaustPipe" xml:space="preserve">
+    <value>排气管-pqg-</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension1x1" xml:space="preserve">
+    <value>越野车车轮悬架-yycclxj- 1x1右</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension1x1mirrored" xml:space="preserve">
+    <value>越野车车轮悬架-yycclxj- 1x1左</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension3x3" xml:space="preserve">
+    <value>越野车车轮悬架-yycclxj- 3x3右</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension3x3mirrored" xml:space="preserve">
+    <value>越野车车轮悬架-yycclxj- 3x3左</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension5x5" xml:space="preserve">
+    <value>越野车车轮悬架-yycclxj- 5x5右</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension5x5mirrored" xml:space="preserve">
+    <value>越野车车轮悬架-yycclxj- 5x5左</value>
+  </data>
+  <data name="DisplayName_Block_OffroadWheel1x1" xml:space="preserve">
+    <value>越野车车轮-yyccl- 1x1</value>
+  </data>
+  <data name="DisplayName_Block_OffroadWheel3x3" xml:space="preserve">
+    <value>越野车车轮-yyccl- 3x3</value>
+  </data>
+  <data name="DisplayName_Block_OffroadWheel5x5" xml:space="preserve">
+    <value>越野车车轮-yyccl- 5x5</value>
+  </data>
+  <data name="DisplayName_Block_BuggyCockpit" xml:space="preserve">
+    <value>越野车驾驶舱-yycjsc-</value>
+  </data>
+  <data name="DisplayName_Block_RoverCockpit" xml:space="preserve">
+    <value>探测车驾驶舱-tccjsc-</value>
+  </data>
+  <data name="DisplayName_Block_OffsetLight" xml:space="preserve">
+    <value>偏移灯-pyd-</value>
+  </data>
+  <data name="DisplayName_Block_OffsetSpotlight" xml:space="preserve">
+    <value>偏移聚光灯-pyjgd-</value>
+  </data>
+    <data name="DisplayName_Block_BarredWindow" xml:space="preserve">
+    <value>铁条窗-ttc-</value>
+  </data>
+  <data name="DisplayName_Block_BarredWindowFace" xml:space="preserve">
+    <value>铁条窗正面-ttczm-</value>
+  </data>
+  <data name="DisplayName_Block_BarredWindowSide" xml:space="preserve">
+    <value>铁条窗侧面-ttccm-</value>
+  </data>
+  <data name="DisplayName_Block_BarredWindowSlope" xml:space="preserve">
+    <value>铁条窗斜面-ttcxm-</value>
+  </data>
+
+  <data name="DisplayName_Block_StorageShelf1" xml:space="preserve">
+    <value>储物架1-cwj-</value>
+  </data>
+  <data name="DisplayName_Block_StorageShelf2" xml:space="preserve">
+    <value>储物架2-cwj-</value>
+  </data>
+  <data name="DisplayName_Block_StorageShelf3" xml:space="preserve">
+    <value>储物架3-cwj-</value>
+  </data>
+  
+  <data name="DisplayName_Block_FireCover" xml:space="preserve">
+    <value>护墙-hq-</value>
+  </data>
+  <data name="DisplayName_Block_FireCoverCorner" xml:space="preserve">
+    <value>护墙角-hqj-</value>
+  </data>
+    <data name="DisplayName_Block_Embrasure" xml:space="preserve">
+    <value>掩体-yt-</value>
+  </data>
+  
+  <data name="DisplayName_Block_TargetDummy" xml:space="preserve">
+    <value>目标假人-mbjr-</value>
+  </data>
+  
+  <data name="DisplayName_Block_HalfWindow" xml:space="preserve">
+    <value>半窗-bc-</value>
+  </data>
+  <data name="DisplayName_Block_HalfWindowCorner" xml:space="preserve">
+    <value>半窗角块-bcjk-</value>
+  </data>
+  <data name="DisplayName_Block_HalfWindowCornerInv" xml:space="preserve">
+    <value>倒置半窗角块-dzbcjk-</value>
+  </data>
+  <data name="DisplayName_Block_HalfWindowInv" xml:space="preserve">
+    <value>倒置半窗-dzbc-</value>
+  </data>
+  
+    <data name="DisplayName_Block_MagneticPlateLarge" xml:space="preserve">
+    <value>大型磁性板-dxcxb-</value>
+  </data>
+  <data name="DisplayName_Block_LargeIndustrialCargoContainer" xml:space="preserve">
+    <value>大型工业货物储存箱-dxgyhwccx-</value>
+  </data>
+  <data name="DisplayName_Block_VerticalButtonPanel" xml:space="preserve">
+    <value>垂直按钮面板-czanmb-</value>
+  </data>
+  
+    <data name="DisplayName_Block_MagneticPlateSmall" xml:space="preserve">
+    <value>磁性板</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorPipeCorner" xml:space="preserve">
+    <value>弯曲输送圆管</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorPipeEnd" xml:space="preserve">
+    <value>输送圆管末端</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorPipeFlange" xml:space="preserve">
+    <value>输送圆管法兰接头</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorPipeIntersection" xml:space="preserve">
+    <value>输送圆管十字接头</value>
+  </data>
+  <data name="DisplayName_Block_ConveyorPipeJunction" xml:space="preserve">
+    <value>输送圆管六向接口</value>
+  </data>
+    <data name="DisplayName_Block_ConveyorPipeSeamless" xml:space="preserve">
+    <value>输送圆管</value>
+  </data>
+  
+  <data name="DisplayName_Block_MergeBlockSmall" xml:space="preserve">
+    <value>小型合并块-xxhbk-</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlock" xml:space="preserve">
+    <value>梁块-lk-</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockEnd" xml:space="preserve">
+    <value>梁块末端-lkmd-</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockHalf" xml:space="preserve">
+    <value>梁块半-lkb-</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockHalfSlope" xml:space="preserve">
+    <value>梁块半斜-lkbx-</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockJunction" xml:space="preserve">
+    <value>梁块十字接口-lk-</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockRound" xml:space="preserve">
+    <value>梁块圆-lky-</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockSlope" xml:space="preserve">
+    <value>梁块斜-lkx-</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockSlope2x1Base" xml:space="preserve">
+    <value>梁块后-lkh-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockSlope2x1Tip" xml:space="preserve">
+    <value>梁块前-lkq-2x1x1</value>
+  </data>
+  <data name="DisplayName_Block_BeamBlockTJunction" xml:space="preserve">
+    <value>梁块T形接头-lktxjt-</value>
+  </data>
+  
+
+  <data name="DisplayName_Block_Passage3" xml:space="preserve">
+    <value>工业通道-gytd-</value>
+  </data>
+  <data name="DisplayName_Block_Passage3Cross" xml:space="preserve">
+    <value>十字工业通道-szgytd-</value>
+  </data>
+  <data name="DisplayName_Block_Passage3Frame" xml:space="preserve">
+    <value>工业通道框架-gytdkj-</value>
+  </data>
+  <data name="DisplayName_Block_Passage3Light" xml:space="preserve">
+    <value>带灯工业通道-ddgytd-</value>
+  </data>
+  <data name="DisplayName_Block_Passage3Wall" xml:space="preserve">
+    <value>工业通道侧面-gytdcm-</value>
+  </data>
+  <data name="DisplayName_Block_PassageScifiCorner" xml:space="preserve">
+    <value>工业通道角-gytdj-</value>
+  </data>
+  <data name="DisplayName_Block_PassageSciFiTjunction" xml:space="preserve">
+    <value>T形工业通道-txgytd-</value>
+  </data>
+  <data name="DisplayName_Block_PassageSciFiWindow" xml:space="preserve">
+    <value>带窗工业通道-dcgytd-</value>
+  </data>
+   <data name="DisplayName_Block_Passage2" xml:space="preserve">
+    <value>通道2-td-</value>
+  </data>
+  <data name="DisplayName_Block_Passage2Side" xml:space="preserve">
+    <value>通道2侧面-tdcm-</value>
+  </data>
+  
+  <data name="DisplayName_LCD_Panel" xml:space="preserve">
+    <value>液晶显示屏-yjxsp-</value>
+  </data>
+  <data name="DisplayName_LCD_PanelWide" xml:space="preserve">
+    <value>宽屏显示器-kpxsq-</value>
+  </data>
+  <data name="DisplayName_Block_Hydrogen_Engine" xml:space="preserve">
+    <value>氢气发电机-qqfdj-</value>
+  </data>
+  <data name="DisplayName_Block_WindTurbine" xml:space="preserve">
+    <value>风力发电机-flfdj-</value>
+  </data>
+  <data name="DisplayName_Block_SurvivalKit" xml:space="preserve">
+    <value>求生套件-qstj-</value>
+  </data>
+  <data name="DisplayName_Block_SmallBattery" xml:space="preserve">
+    <value>小电池-xdc-</value>
+  </data>
+  <data name="DisplayName_Block_Ladder" xml:space="preserve">
+    <value>梯子-tz-</value>
+  </data>
+    <data name="DisplayName_Block_Store" xml:space="preserve">
+    <value>商店-sd-</value>
+  </data>
+  <data name="DisplayName_Block_Contract" xml:space="preserve">
+    <value>合同管理器-htglq-</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	<!-- ==========方块介绍部分========== -->
+  
+  
+  
+  <data name="Description_Welder" xml:space="preserve">
+    <value>用于建造和维修的工具。按住{CONTROL:ABASE:PRIMARY_TOOL_ACTION}焊接。按{CONTROL:ABASE:SECONDARY_TOOL_ACTION}将缺少的组件放入建造计划器。</value>
+  </data>
+  <data name="Description_AngleGrinder" xml:space="preserve">
+    <value>用于拆解方块的工具。按住{CONTROL:ABASE:PRIMARY_TOOL_ACTION}拆卸。</value>
+  </data>
+  <data name="Description_HandDrill" xml:space="preserve">
+    <value>能击碎石头获取矿物的工具。按住{CONTROL:ABASE:PRIMARY_TOOL_ACTION}采矿。按住{CONTROL:ABASE:SECONDARY_TOOL_ACTION}快速挖掘(不产生矿石)。</value>
+  </data>
+
+  <data name="Description_LightArmor" xml:space="preserve">
+    <value>普通装甲方块,不是很坚实但是很轻。用于建造轻型结构和船只</value>
+  </data>
+  <data name="Description_HeavyArmor" xml:space="preserve">
+    <value>重型装甲方块,耐久度极高。适合作为战舰的护甲</value>
+  </data>
+  <data name="Description_AdvancedRotor" xml:space="preserve">
+    <value>可使连接在转子头上的网格旋转，并能相互输送部件。</value>
+  </data>
+  <data name="Description_AdvancedRotorPart" xml:space="preserve">
+    <value>高级转子的头部，可将其重新与转子连接。</value>
+  </data>
+  <data name="Description_AirVent" xml:space="preserve">
+    <value>排气扇可以向密闭房间充入氧气或从大气中抽取氧气。
+
+氧气可由氢氧发生器或氧气农场制造。</value>
+  </data>
+  <data name="Description_RadioAntenna" xml:space="preserve">
+    <value>天线可以用来广播位置信息，以及远程访问处于天线信号范围并装有天线的网格。</value>
+  </data>
+  <data name="Description_VirtualMass" xml:space="preserve">
+    <value>此方块可以使人工重力作用于网格。</value>
+  </data>
+  <data name="Description_Assembler" xml:space="preserve">
+    <value>非常先进的机器，能制造所有种类的工具和部件。
+
+制造时需要矿锭和电力。</value>
+  </data>
+  <data name="Description_AssemblerBasic" xml:space="preserve">
+    <value>简易版本的装配机，只能制造基础工具和组件。
+
+制造时需要矿锭和电力。</value>
+  </data>
+  <data name="Description_AtmosphericThrust" xml:space="preserve">
+    <value>喷气发动机,只能在有大气的情况下工作。</value>
+  </data>
+  <data name="Description_Battery" xml:space="preserve">
+    <value>电池能存储电能，并在需要时供应给其他方块。</value>
+  </data>
+  <data name="Description_Beacon" xml:space="preserve">
+    <value>信标可以在屏幕上显示你的位置，并可以作为跃迁引擎的跃迁目标。</value>
+  </data>
+  <data name="Description_ButtonPanel" xml:space="preserve">
+    <value>按钮面板可以将方块功能绑定到按钮后进行直接操作。
+
+按键高亮后，按{CONTROL:TERMINAL}配置按钮，按{CONTROL:USE}激活。</value>
+  </data>
+  <data name="Description_Camera" xml:space="preserve">
+    <value>摄像机可用于查看远处的物体。
+
+可在飞船工具栏上设置动作进行查看，查看时可使用鼠标滚轮缩放视角。</value>
+  </data>
+  <data name="Description_SmallCargoContainer" xml:space="preserve">
+    <value>储存物品的小型货柜。
+
+注意：存储类方块库存中若装有弹药，被摧毁后会引发爆炸</value>
+  </data>
+  <data name="Description_MediumCargoContainer" xml:space="preserve">
+    <value>储存物品的中型货柜。
+
+注意：存储类方块库存中若装有弹药，被摧毁后会引发爆炸</value>
+  </data>
+  <data name="Description_LargeCargoContainer" xml:space="preserve">
+    <value>储存物品的大型货柜。
+
+注意：存储类方块库存中若装有弹药，被摧毁后会引发爆炸</value>
+  </data>
+  <data name="Description_SteelCatwalk" xml:space="preserve">
+    <value>薄钢板，可以作为过道或墙壁。</value>
+  </data>
+  <data name="Description_Cockpit" xml:space="preserve">
+    <value>驾驶舱可用于控制飞船。
+
+将氧气罐或氢氧发生器与驾驶舱连接以供应氧气。</value>
+  </data>
+  <data name="Description_FighterCockpit" xml:space="preserve">
+    <value>一种重型驾驶舱，可以提供比普通驾驶舱更多的保护。
+
+将氧气罐或氢氧发生器与驾驶舱连接以供应氧气。</value>
+  </data>
+  <data name="Description_Collector" xml:space="preserve">
+    <value>收集器可用于收集物品，将收集器靠近物品即可将其吸入。</value>
+  </data>
+  <data name="Description_Connector" xml:space="preserve">
+    <value>连接器可以相互通过磁力连接，锁定后可输送物品和电力。
+
+按{CONTROL:LANDING_GEAR}或通过工具栏进行锁定/解锁。连接器在连接范围内时，指示灯会变成黄色。解锁后，它会暂时失去磁性。</value>
+  </data>
+  <data name="Description_ControlPanel" xml:space="preserve">
+    <value>简易控制面板,可访问网格菜单。
+
+按{CONTROL:TERMINAL}访问面板。</value>
+  </data>
+  <data name="Description_ControlStation" xml:space="preserve">
+    <value>用于控制飞船的座椅。</value>
+  </data>
+  <data name="Descripton_ConveyorJunction" xml:space="preserve">
+    <value>用于构建物流管线的模块。使用此方块连接其他方块的物流接口可使物品和气体在方块之间正常输送。</value>
+  </data>
+  <data name="Description_ConveyorSorter" xml:space="preserve">
+    <value>用于构建高级物流系统的模块。可设置成只允许通过某些物品或使某些物品无法通过。</value>
+  </data>
+  <data name="Description_ConveyorTube" xml:space="preserve">
+    <value>用于构建物流管线的模块。使用此方块连接其他方块的物流接口可使物品和气体在方块之间正常输送。</value>
+  </data>
+  <data name="Description_CornerLight" xml:space="preserve">
+    <value>用于照亮黑暗区域的照明装置，照明半径较小。</value>
+  </data>
+  <data name="Description_CryoChamber" xml:space="preserve">
+    <value>玩家与服务器断开后可以停留在休眠舱内。
+
+休眠舱中的玩家氧气消耗量会降低。离线时工具栏会保存。使用输送机将氧气罐、氢氧发生器或氧气农场与休眠舱连接以供应氧气。</value>
+  </data>
+  <data name="Description_Decoy" xml:space="preserve">
+    <value>诱饵可以引诱敌军自动炮塔向其开火以保护更重要的装备。</value>
+  </data>
+  <data name="Description_Door" xml:space="preserve">
+    <value>门可以将内部空间封闭并保持气密，并让玩家可以出入。</value>
+  </data>
+  <data name="Description_Drill" xml:space="preserve">
+    <value>在行星和小行星上采矿的大型工具。
+
+可以从驾驶舱手动操控。与物流连通后采集的矿石可以自动存入飞船库存中
+
+注意：工作时不要靠的太近</value>
+  </data>
+  <data name="Description_Ejector" xml:space="preserve">
+    <value>弹射器可以从小船中抛出矿石，工具或少量种类的零件。可以配合分拣传输机收集或丢弃某些物品。</value>
+  </data>
+  <data name="Description_FlightSeat" xml:space="preserve">
+    <value>用于控制飞船的轻型座椅。</value>
+  </data>
+  <data name="Description_FullCoverWall" xml:space="preserve">
+    <value>简易装甲护墙，可用于室内防护或防止玩家跌落。</value>
+  </data>
+  
+
+  <data name="Description_GravityGenerator" xml:space="preserve">
+    <value>可产生作用于玩家，物品与人工质量块的单向人工重力场。在自然重力场中效果会相对不明显。</value>
+  </data>
+  <data name="Description_GravityGeneratorSphere" xml:space="preserve">
+    <value>可产生作用于玩家，物品与人工质量块的球形人工重力场。在自然重力场中效果会相对不明显。</value>
+  </data>
+  <data name="Description_ShipGrinder" xml:space="preserve">
+    <value>用于拆解舰船的大型切割机。能通过驾驶舱或终端列表控制。记得使用时不要靠的太近。</value>
+  </data>
+  <data name="Description_Gyroscope" xml:space="preserve">
+    <value>陀螺仪可以通过鼠标或键盘控制飞船转向。
+
+陀螺仪越多,飞船的转向速度越快。</value>
+  </data>
+  <data name="Description_HangarDoor" xml:space="preserve">
+    <value>一种坚实的门,可作为机库门或车库门使用。
+
+此门不可直接开关,但你可以建造一个按键面板控制此门,或者用传感器实现自动开关。</value>
+  </data>
+  <data name="Description_HydrogenTank" xml:space="preserve">
+    <value>氢气罐用于储存氢燃料,以及给氢气瓶充入氢气。
+
+氢气可以用作氢推进器、氢气发电机或喷气背包的燃料。氢氧发生器可以用冰制造氢气。
+
+注意:此方块中储存有氢气时会发生爆炸。</value>
+  </data>
+  <data name="Description_HydrogenThrust" xml:space="preserve">
+    <value>一种强劲的推进器，以氢气为燃料，可在任何环境使用。
+
+注意:此推进器需要使用输送机供应氢气才可工作。</value>
+  </data>
+  <data name="Description_InteriorLight" xml:space="preserve">
+    <value>简易照明设施，用于照明中等面积的区域。</value>
+  </data>
+  <data name="Description_InteriorPillar" xml:space="preserve">
+    <value>简易立柱，用于加固结构或作为装饰。</value>
+  </data>
+
+  <data name="Description_InteriorWall" xml:space="preserve">
+    <value>一种装饰方块，可用作内墙、天花板或地板。</value>
+  </data>
+  <data name="Description_IonThrust" xml:space="preserve">
+    <value>使用电能推进飞船的推进器，在无大气时表现最好。</value>
+  </data>
+  <data name="Description_JumpDrive" xml:space="preserve">
+    <value>跃迁引擎可通过质量传送的方式使飞船远距离航行。
+
+跃迁之前需要充能，且跃迁动作只能在驾驶舱的工具栏上激活。</value>
+  </data>
+  <data name="Description_TextPanel" xml:space="preserve">
+    <value>可显示文本，图标或脚本的显示屏。</value>
+  </data>
+  <data name="Description_LandingGear" xml:space="preserve">
+    <value>此方块具有磁性，可以吸附在任何物体表面。
+
+在驾驶舱内可以按{CONTROL:SPACESHIP:LANDING_GEAR}锁定或者解锁起落架和磁性板。在接近物体表面可以锁定时，指示灯会变为黄色，解锁后，方块将暂时失去磁性。</value>
+  </data>
+  <data name="Description_LaserAntenna" xml:space="preserve">
+    <value>一种特殊的通信设施，使用红外激光进行通信。通信前需要使用GPS坐标进行配对连接。
+    
+    玩家不会看到此天线发出的信号，但通讯时需要保证两个激光天线之间没有可以遮挡信号的物体。</value>
+  </data>
+  <data name="Description_MedicalRoom" xml:space="preserve">
+    <value>医疗室可以补充能量，恢复生命值，还能改变外观以及重生。与氢氧发生器或气罐连接后，还可以补充氧气和氢气。</value>
+  </data>
+  <data name="Description_MergeBlock" xml:space="preserve">
+    <value>合并块可暂时（或者永久）将两个网格连接起来作为一个网格使用。
+
+合并块在接近另外一个合并块时指示灯会显示黄色。</value>
+  </data>
+
+  
+  <data name="Description_ProductivityModule" xml:space="preserve">
+    <value>此升级模块可以加快相连设备的生产速度。必须连接在精炼厂或装配机的升级插槽上才能正常工作。</value>
+  </data>
+  <data name="Description_EffectivenessModule" xml:space="preserve">
+    <value>此升级模块能增加相连精炼厂的产量。必须连接在精炼厂的升级插槽上才能正常工作。</value>
+  </data>
+  <data name="Description_PowerEfficiencyModule" xml:space="preserve">
+    <value>此升级模块可以降低相连设备的功率要求。必须连接在精炼厂或装配机的升级插槽上才能正常工作。</value>
+  </data>
+  <data name="Description_OreDetector" xml:space="preserve">
+    <value>矿物探测器可以探测一定范围内的矿物资源并在屏幕上显示。</value>
+  </data>
+  <data name="Description_OxygenFarm" xml:space="preserve">
+    <value>氧气农场可利用光合作用产生少量氧气。</value>
+  </data>
+  <data name="Description_OxygenGenerator" xml:space="preserve">
+    <value>氢氧发生器可以用冰制造氧气和氢气,并可以自动给气瓶充气。
+
+氧气/氢气可使用氧气罐/氢气罐储存。</value>
+  </data>
+  <data name="Description_OxygenTank" xml:space="preserve">
+    <value>氧气罐可以储存氧气,并给氧气瓶充入氧气。
+
+氧气可使用氢氧发生器或氧气农场制造。</value>
+  </data>
+  <data name="Description_ParachuteHatch" xml:space="preserve">
+    <value>此方块可在大气层中打开降落伞减缓下降速度。
+
+降落伞可以设置成自动展开,也可以在工具栏或者设置中手动操作。</value>
+  </data>
+  <data name="Description_Passage" xml:space="preserve">
+    <value>一种装饰方块，可以作为供人员通行的通道，或做成活动部件的滑槽。</value>
+  </data>
+  <data name="Description_PassengerSeat" xml:space="preserve">
+    <value>普通乘客座椅,无法控制飞船。</value>
+  </data>
+  <data name="Description_Piston" xml:space="preserve">
+    <value>可以延伸的活塞，能够输送电力和物品。</value>
+  </data>
+  <data name="Description_PistonTop" xml:space="preserve">
+    <value>活塞的顶部。它没有自己的功能，但可以作为装饰使用。 </value>
+  </data>
+  <data name="Description_ProgrammableBlock" xml:space="preserve">
+    <value>运行脚本的电脑,可以管理飞船系统。
+
+可以使用创意工坊中现有的脚本，或者自己编写程序。</value>
+  </data>
+  <data name="Description_Projector" xml:space="preserve">
+    <value>投影仪可通过蓝图投影出飞船结构，配合焊接器模块可实现自动化建造。
+
+投影需要与网格连接才可建造。</value>
+  </data>
+  <data name="Description_Ramp" xml:space="preserve">
+    <value>标准1x2斜坡。</value>
+  </data>
+  <data name="Description_Reactor" xml:space="preserve">
+    <value>反应堆可以使用提炼的铀锭产生大量电力。
+铀是宇宙中最稀有的元素之一，并且无法在类地行星上找到。可以在小行星表面和陨石撞击形成的陨石坑中找到铀。
+
+注意：此方块被摧毁时会引发剧烈爆炸</value>
+  </data>
+  <data name="Description_Refinery" xml:space="preserve">
+    <value>高级精炼设施，能将所有种类的矿石精炼成矿锭。
+
+可以用升级模块升级。</value>
+  </data>
+  <data name="Description_RefineryBasic" xml:space="preserve">
+    <value>一种简易精炼厂,只能将基础矿物炼成矿锭。</value>
+  </data>
+
+  <data name="Description_RemoteControl" xml:space="preserve">
+    <value>此方块可以使飞船自动飞行至指定GPS坐标，和天线连接后，还可以远程控制飞船。</value>
+  </data>
+
+  <data name="Description_Rotor" xml:space="preserve">
+    <value>使相连的网格旋转。</value>
+  </data>
+  <data name="Description_RotorPart" xml:space="preserve">
+    <value>转子的顶部。
+
+可在转子设置中重新连接。</value>
+  </data>
+  <data name="Description_Sensor" xml:space="preserve">
+    <value>可调式传感器，可在一定的范围内检测玩家，飞船或者小行星等物体并触发飞船系统。</value>
+  </data>
+  <data name="Description_SolarPanel" xml:space="preserve">
+    <value>将太阳能转化成电能的发电装置。
+
+将太阳能板对准太阳提高发电效率。</value>
+  </data>
+  <data name="Description_Sound" xml:space="preserve">
+    <value>此方块激活后能发出声音。可用于警报或播放音乐</value>
+  </data>
+  <data name="Description_SpaceBall" xml:space="preserve">
+    <value>此方块可以使人工重力场作用于网格,并可调节虚拟质量。</value>
+  </data>
+  <data name="Description_ReflectorLight" xml:space="preserve">
+    <value>大型照明设备,可照亮大片区域。</value>
+  </data>
+  <data name="Description_Stairs" xml:space="preserve">
+    <value>普通1x2楼梯。</value>
+  </data>
+  <data name="Description_Timer" xml:space="preserve">
+    <value>能定时对飞船发出指令的简易装置。
+
+使用多个定时器方块设定好顺序依次触发可以实现简单的自动控制。</value>
+  </data>
+  <data name="Description_Warhead" xml:space="preserve">
+    <value>一种很强的爆炸物，可以轻易摧毁小行星，敌舰和基地
+
+弹头激活前仅能定时引爆。激活后，弹头受到攻击或碰撞时会自动爆炸。</value>
+  </data>
+  <data name="Description_ShipWelder" xml:space="preserve">
+    <value>大型舰载焊接器，可以用库存中的部件修理方块或建造投影。方块开启后即可自动进行焊接。
+
+注意：使用时不要靠的太近。</value>
+  </data>
+  <data name="Description_Wheel" xml:space="preserve">
+    <value>固定式车轮，与转子连接后可用于制作简易车辆，也可以作为防撞设施使用。</value>
+  </data>
+  <data name="Description_Suspension" xml:space="preserve">
+    <value>自带电机的悬架系统，用于驱动车辆并使其穿越各种复杂地形。</value>
+  </data>
+  <data name="Description_Window" xml:space="preserve">
+    <value>气密的透明窗户，可以欣赏外面的风景。</value>
+  </data>
+  <data name="Description_VerticalWindow" xml:space="preserve">
+    <value>透气的窗户,可以作为护栏阻挡工程师进入。</value>
+  </data>
+  <data name="Description_DiagonalWindow" xml:space="preserve">
+    <value>透气的斜窗,可以当楼梯使用。</value>
+  </data>
+  <data name="Description_SurvivalKit" xml:space="preserve">
+    <value>一体化工厂，工程师可以从这里开始，但是精炼和装配能力有限。可以在此充电。</value>
+  </data>
+  <data name="Description_WindTurbine" xml:space="preserve">
+    <value>风力发电机在空旷处能发少量电。只能在有大气层的行星上使用。合理布局并在较高的地方放置效率更高。</value>
+  </data>
+  <data name="Description_PowerGenerator" xml:space="preserve">
+    <value>用氢气驱动产生电力的发电机。</value>
+  </data>
+  <data name="Description_Ladder" xml:space="preserve">
+    <value>可供攀爬的钢制直梯，使工程师无需喷气背包也可垂直移动。</value>
+  </data>
+  <data name="Description_Desk" xml:space="preserve">
+    <value>带有椅子的桌子。</value>
+  </data>
+  <data name="Description_DeskCorner" xml:space="preserve">
+    <value>带有椅子的桌角。</value>
+  </data>
+  <data name="Description_DeskChairless" xml:space="preserve">
+    <value>不带椅子的桌子。</value>
+  </data>
+  <data name="Description_DeskChairlessCorner" xml:space="preserve">
+    <value>不带椅子的桌角。</value>
+  </data>
+  <data name="Description_FoodDispenser" xml:space="preserve">
+    <value>售货机可以使工程师随时都能买到饮料或其他东西。</value>
+  </data>
+  <data name="Description_Jukebox" xml:space="preserve">
+    <value>播放音乐的设备,可通过按键切换曲目。</value>
+  </data>
+  <data name="Description_OpenCockpitLarge" xml:space="preserve">
+    <value>用于控制大型飞船的重型控制座椅。</value>
+  </data>
+  <data name="Description_OpenCockpitSmall" xml:space="preserve">
+    <value>简易控制座椅，可控制小型的车辆或飞船，坐上去非常舒适。</value>
+  </data>
+  <data name="Description_LabEquipment" xml:space="preserve">
+    <value>太空实验室中必备的实验设备，对于工程师而言仅剩下了装饰作用。</value>  </data>
+  <data name="Description_Shower" xml:space="preserve">
+    <value>为宇航员设计的浴室,在零重力环境下也可清洁身体。可作为装饰</value>
+  </data>
+  <data name="Description_WindowWall" xml:space="preserve">
+    <value>装有透明玻璃的气密装甲护墙。</value>
+  </data>
+  <data name="Description_WindowWallLeft" xml:space="preserve">
+    <value>装有透明玻璃的气密装甲护墙。</value>
+  </data>
+  <data name="Description_WindowWallRight" xml:space="preserve">
+    <value>装有透明玻璃的气密装甲护墙。</value>
+  </data>
+  <data name="Description_MedicalStation" xml:space="preserve">
+    <value>具有磁共振成像和断层扫描功能的医疗设施,可代替太空服检查身体受伤状况。可作为装饰</value>
+  </data>
+  <data name="Description_TransparentLCD" xml:space="preserve">
+    <value>全透明的液晶显示屏。</value>
+  </data>
+  <data name="Description_RailingStraight" xml:space="preserve">
+    <value>简易钢制护栏</value>
+  </data>
+  <data name="Description_RailingDouble" xml:space="preserve">
+    <value>简易钢制护栏</value>
+  </data>
+  <data name="Description_RailingCorner" xml:space="preserve">
+    <value>简易钢制护栏</value>
+  </data>
+  <data name="Description_RailingDiagonal" xml:space="preserve">
+    <value>简易钢制护栏</value>
+  </data>
+  <data name="Description_GratedCatwalk" xml:space="preserve">
+    <value>透气的简易钢制过道</value>
+  </data>
+  <data name="Description_GratedCatwalkCorner" xml:space="preserve">
+    <value>透气的简易钢制过道</value>
+  </data>
+  <data name="Description_GratedCatwalkStraight" xml:space="preserve">
+    <value>透气的简易钢制过道</value>
+  </data>
+  <data name="Description_GratedCatwalkWall" xml:space="preserve">
+    <value>透气的简易钢制过道</value>
+  </data>
+  <data name="Description_GratedStairs" xml:space="preserve">
+    <value>简易钢制楼梯</value>
+  </data>
+  <data name="Description_GratedHalfStairs" xml:space="preserve">
+    <value>简易钢制楼梯</value>
+  </data>
+  <data name="Description_RotatingLight" xml:space="preserve">
+    <value>自带转子的微型聚光灯,便于警示工程师。</value>
+  </data>
+  <data name="Description_Freight" xml:space="preserve">
+    <value>简易钢制货箱，容量较小
+    注意：所有人都可以打开此方块的物品栏，因此不要将贵重物品存入此方块</value>
+  </data>
+  <data name="Description_Kitchen" xml:space="preserve">
+    <value>带有电磁炉和微波炉的烹饪设施，对于工程师而言仅剩下了装饰作用。</value>
+  </data>
+  <data name="Description_Planters" xml:space="preserve">
+    <value>用于在太空中培育植物的种植盆，可作为装饰。</value>
+  </data>
+  <data name="Description_Lockers" xml:space="preserve">
+    <value>储存私人用品及生活必需品的简易柜子。</value>
+  </data>
+  <data name="Description_LockerRoom" xml:space="preserve">
+    <value>可以储存工具，武器，弹药和气罐的柜子
+注意：此方块库存中若装有弹药，被摧毁后会引发爆炸</value>
+  </data>
+  <data name="Description_LockerRoomCorner" xml:space="preserve">
+    <value>可以储存工具，武器，弹药和气罐的柜子
+注意：此方块库存中若装有弹药，被摧毁后会引发爆炸</value>
+  </data>
+  <data name="Description_Couch" xml:space="preserve">
+    <value>高级乘客座椅，坐上去非常舒适。</value>
+  </data>
+  <data name="Description_CornerCouch" xml:space="preserve">
+    <value>高级乘客座椅，坐上去非常舒适。</value>
+  </data>
+  <data name="Description_Bathroom" xml:space="preserve">
+    <value>为宇航员设计的厕所，具有一整套污水处理系统。</value>
+  </data>
+  <data name="Description_BathroomOpen" xml:space="preserve">
+    <value>为宇航员设计的厕所，具有一整套污水处理系统。</value>
+  </data>
+  <data name="Description_ToiletSeat" xml:space="preserve">
+    <value>为宇航员设计的厕所座椅。</value>
+  </data>
+  <data name="Description_Console" xml:space="preserve">
+    <value>大型投影桌，可投影出飞船和基站的全息影像，还能在显示屏上显示文本、图像或脚本。</value>
+  </data>
+  <data name="Description_CockpitIndustrial" xml:space="preserve">
+    <value>耐用的重型驾驶舱,可以提供比普通驾驶舱更多的防护。
+
+将氧气罐或氢氧发生器与驾驶舱连接以供应氧气。</value>
+  </data>
+  <data name="Description_Bed" xml:space="preserve">
+    <value>此方块在加压环境中可以替代休眠舱使用。
+
+玩家离线的时候可以保留其库存和工具栏，而且在室内加压时可维持其生命。</value>
+  </data>
+  
+    <data name="Description_DeadEngineer" xml:space="preserve">
+    <value>不幸遇难的工程师的遗体。</value>
+  </data>
+  
+    <data name="Description_AntennaDish" xml:space="preserve">
+    <value>巨大的碟型增益天线，可用于广播位置信息，以及远程访问处于天线信号范围并装有天线的网格。</value>
+  </data>
+  
+    <data name="Description_OffsetDoor" xml:space="preserve">
+    <value>门可以将内部空间封闭并保持气密，并让玩家可以出入。</value>
+  </data>
+  <data name="Description_Hinge" xml:space="preserve">
+    <value>可以输送物品的铰链，最大旋转自由度为180°。</value>
+  </data>
+  <data name="Description_HingeHead" xml:space="preserve">
+    <value>铰链头，可以重新连接到铰链。</value>
+  </data>
+  <data name="Description_BarCounter" xml:space="preserve">
+    <value>提供饮品的吧台，可作为装饰。</value>
+  </data>
+
+  <data name="Description_ExhaustPipe" xml:space="preserve">
+    <value>可产生烟，火，电弧等粒子效果的装饰性方块。</value>
+  </data>
+
+  <data name="Description_OffsetLight" xml:space="preserve">
+    <value>用于照亮黑暗区域的照明设施。</value>
+  </data>
+
+  <data name="Description_BarredWindow" xml:space="preserve">
+    <value>由铁条制成的透气窗户。</value>
+  </data>
+
+  <data name="Description_StorageShelf" xml:space="preserve">
+    <value>存放零件的储物架，使用切割机拆解以取下储物架上的零件。</value>
+  </data>
+
+  <data name="Description_ViewPort" xml:space="preserve">
+    <value>装有透明玻璃的气密装甲护墙。</value>
+  </data>
+
+  <data name="Description_WeaponRack" xml:space="preserve">
+    <value>储存武器和弹药的柜子。
+注意：此方块库存中若装有弹药，被摧毁后会引发爆炸</value>
+  </data>
+  <data name="Description_FireCover" xml:space="preserve">
+    <value>简易装甲护墙，可提供少量防护，或防止玩家跌落。</value>
+  </data>
+
+  <data name="Description_Embrasure" xml:space="preserve">
+    <value>提供少量防护的掩体，可通过其上的射击孔向外射击。</value>
+  </data>
+  <data name="Description_ContractBlock" xml:space="preserve">
+    <value>用于管理合同系统的方块，合同是一类可由玩家或NPC发起的任务，完成后会得到奖励</value>
+  </data>
+
+  <data name="Description_TargetDummy" xml:space="preserve">
+    <value>用于练习或测试手持武器的装置，可设置假人被击中或被摧毁时执行的动作，假人被摧毁后可消耗钢板进行维修。</value>
+  </data>
+  <data name="Description_SafeZone" xml:space="preserve">
+    <value>此方块可消耗力场电池生成球状或方形的能量力场,保护内部的网格免受伤害。</value>
+  </data>
+
+
+
+
+
+
+
+
+
+</root>
