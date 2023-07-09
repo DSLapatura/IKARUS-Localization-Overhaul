@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Description_FAQ_Airlock" xml:space="preserve">
+    <value>气密性功能可以让玩家保证室内正常气压的情况下，自由地出入。最简单的办法就是做一套平行的门，也能做得更高级点，可以加上气孔，定时方块，按钮面板或者脚本。</value>
+  </data>
+  <data name="Description_FAQ_AirTightnessPressure" xml:space="preserve">
+    <value>房间需要密封后才可以通过进气口充入氧气。保证房间没有孔洞，门已紧闭。</value>
+  </data>
+  <data name="Description_FAQ_Ammo" xml:space="preserve">
+    <value>如果你有所需的原料，你可以在高级装配机中为武器和炮塔生产弹药。</value>
+  </data>
+  <data name="Description_FAQ_Armor" xml:space="preserve">
+    <value>装甲可以做成飞船和基站的结构，还可以保护重要的部件。轻甲成本低，造成的船也会速度快。重甲可以很好地保护飞船可是影响速度。</value>
+  </data>
+  <data name="Description_FAQ_ArmorSkins" xml:space="preserve">
+    <value>装甲皮肤与你的飞船和基站的纹理和样式不同。可以和你的网格的着色一样。按P打开着色屏幕。</value>
+  </data>
+  <data name="Description_FAQ_Asteroids" xml:space="preserve">
+    <value>太空中有小行星。数量取决于服务器的性能和世界设置。大多数小行星都有矿石。</value>
+  </data>
+  <data name="Description_FAQ_AutoPilot" xml:space="preserve">
+    <value>飞船自动驾驶需要远程控制方块。你需要在远程控制方块中添加GPS位标然后选择飞行模式。还可以设定在抵达下一个位标后的任务。</value>
+  </data>
+  <data name="Description_FAQ_BasicMovement" xml:space="preserve">
+    <value>按{CONTROL:FORWARD}{CONTROL:STRAFE_LEFT}{CONTROL:BACKWARD}{CONTROL:STRAFE_RIGHT}移动，按住{CONTROL:SPRINT}快跑，切换{CONTROL:SWITCH_WALK}行走。按{CONTROL:CROUCH}蹲下，{CONTROL:JUMP}跳。</value>
+  </data>
+  <data name="Description_FAQ_Begin" xml:space="preserve">
+    <value>开始制造。建造精炼厂还有装配器。保证你有足够的电，建造太阳能板，电池和反应堆。保证医疗站的安全，最好多建几个！</value>
+  </data>
+  <data name="Description_FAQ_Begin_Q0" xml:space="preserve">
+    <value>What should I do</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_Blastdoors" xml:space="preserve">
+    <value>防爆门方块是重甲块。可以用转子和活塞控制。可以建造大型活动门和平台。</value>
+  </data>
+  <data name="Description_FAQ_BlockLimit" xml:space="preserve">
+    <value>方块限制设置限制每个玩家可以建造的每种类型方块的数量，以确保服务器性能。 世界设置中可以禁用块限制。</value>
+  </data>
+  <data name="Description_FAQ_BlockRotation" xml:space="preserve">
+    <value>可以在游戏选项菜单中开启方块旋转。按{CONTROL:CUBE_DEFAULT_MOUNTPOINT}向默认安装点旋转方块。</value>
+  </data>
+  <data name="Description_FAQ_BlockShapes" xml:space="preserve">
+    <value>方块上有+的，可以有多个形状选项供选择。使用鼠标滚轮切换不同的形状。</value>
+  </data>
+  <data name="Description_FAQ_Bottles" xml:space="preserve">
+    <value>氢气和氧气瓶可以在装配机中制造，并在O2/H2发生器中加注氢气/氧气。</value>
+  </data>
+  <data name="Description_FAQ_Broadcasting" xml:space="preserve">
+    <value>你的宇航服中的天线信号传送范围有限，无法远程控制网格和无人机。可以尝试关闭后再开启。</value>
+  </data>
+  <data name="Description_FAQ_Bug" xml:space="preserve">
+    <value>你可以在我们论坛或者 https://support.keenswh.com/ 反映问题</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q0" xml:space="preserve">
+    <value>如何报告错误</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q1" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q2" xml:space="preserve">
+    <value>我发现了错误</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q3" xml:space="preserve">
+    <value>游戏有错误吗</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q4" xml:space="preserve">
+    <value>此游戏有错误</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q5" xml:space="preserve">
+    <value>我在哪里报告错误</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q6" xml:space="preserve">
+    <value>故障</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q7" xml:space="preserve">
+    <value>这个回答不管用</value>
+  </data>
+  <data name="Description_FAQ_Bug_Q8" xml:space="preserve">
+    <value>内存不足</value>
+  </data>
+  <data name="Description_FAQ_BuildMode" xml:space="preserve">
+    <value>按B切换不同的建造模式。</value>
+  </data>
+  <data name="Description_FAQ_BuildPlanner" xml:space="preserve">
+    <value>建造计划期可以让你快速访问需要的方块。使用焊接器点击鼠标右键在组件清单中加入方块。按取出键取出需要的组件。</value>
+  </data>
+  <data name="Description_FAQ_Camera" xml:space="preserve">
+    <value>按{CONTROL:CAMERA_MODE}改变视角，可以从第一人称转变成第三人称视角。注意：所观察的对象挡住视野的时候，第三人称摄像头能穿插第一人称。</value>
+  </data>
+  <data name="Description_FAQ_CarJump" xml:space="preserve">
+    <value>车子无法前进时，可以使用悬挂跳出。按住然后放开X就能跳动。弹跳的力度可以在悬挂中设定。</value>
+  </data>
+  <data name="Description_FAQ_CarRover" xml:space="preserve">
+    <value>战车带有轮子在地上行驶，没有推动器不能飞。战车成本低，但是行驶缓慢也易遭攻击。</value>
+  </data>
+  <data name="Description_FAQ_Clang" xml:space="preserve">
+    <value>碰撞！</value>
+  </data>
+  <data name="Description_FAQ_Clang_Q0" xml:space="preserve">
+    <value>碰撞</value>
+  </data>
+  <data name="Description_FAQ_Clang_Q1" xml:space="preserve">
+    <value>Xocliw</value>
+  </data>
+  <data name="Description_FAQ_CombatMechanics" xml:space="preserve">
+    <value>各种手持武器可以让你保护自己；从用作随身武器的基本手枪到用于特殊操作的高级步枪，甚至是反装甲发射器。这些武器需要装备正确的弹匣。站着不动、蹲下和瞄准武器将提高精度并减少后坐力。</value>
+  </data>
+  <data name="Description_FAQ_Commands" xml:space="preserve">
+    <value>使用/帮助找到所有聊天命令。</value>
+  </data>
+  <data name="Description_FAQ_Components" xml:space="preserve">
+    <value>组件可以拼装成方块。锭子在装配机中加工后获得组件。生存模式中总是需要组件做成方块。</value>
+  </data>
+  <data name="Description_FAQ_ConsoleBlock" xml:space="preserve">
+    <value>中控方块是一种装饰方块，有投射大小网格的功能。</value>
+  </data>
+  <data name="Description_FAQ_ContractBlock" xml:space="preserve">
+    <value>合同方块可以让你订立合同给别的玩家签。也可以从贸易站接受合同。</value>
+  </data>
+  <data name="Description_FAQ_Contracts" xml:space="preserve">
+    <value>可以从合同方块接受合同获取不错的收益。可以从别的玩家和合同方块找到合同。</value>
+  </data>
+  <data name="Description_FAQ_ConvertGrid" xml:space="preserve">
+    <value>如果世界设置中以启用，网格可以在太空站和飞船之前切换。</value>
+  </data>
+  <data name="Description_FAQ_CooperativeMode " xml:space="preserve">
+    <value>协作模式下装配器可以一起工作，可以互相取物料。</value>
+  </data>
+  <data name="Description_FAQ_CopyPaste" xml:space="preserve">
+    <value>仅在创意模式中，能按Ctrl+C, Ctrl+V和Ctrl+X复制，粘贴和删除方块和网格。</value>
+  </data>
+  <data name="Description_FAQ_Damage" xml:space="preserve">
+    <value>使用火箭发射器、加特林炮塔或手持步枪等武器可以造成伤害。还有其他网格或者体素也同样能对网格造成伤害。</value>
+  </data>
+  <data name="Description_FAQ_Decoratives" xml:space="preserve">
+    <value>玩家可以用装饰方块装饰大网格飞船的内饰。桌子和厨房都是模块式的，可以组合做成很多形状。</value>
+  </data>
+  <data name="Description_FAQ_DisableHints" xml:space="preserve">
+    <value>按Esc禁用友好机器人提示，在选项中，按游戏禁用显示友好机器人提示。</value>
+  </data>
+  <data name="Description_FAQ_Drones" xml:space="preserve">
+    <value>无人机为小型无人飞船，可以为远程或者脚本控制，也可由传感器和定时器控制。</value>
+  </data>
+  <data name="Description_FAQ_Elaborate" xml:space="preserve">
+    <value>可以更具体点吗？</value>
+  </data>
+  <data name="Description_FAQ_Electricity" xml:space="preserve">
+    <value>反应堆和太阳能板可以发电并蓄电。可以自动传输到所有连接的方块。许多方块都需要电才能工作。</value>
+  </data>
+  <data name="Description_FAQ_Emotes" xml:space="preserve">
+    <value>动画表情在工具栏，按G进入。可以在聊天中使用，输入/之后再输入表情名称。例如：/表情名称</value>
+  </data>
+  <data name="Description_FAQ_Encounter" xml:space="preserve">
+    <value>你会随时遇到飞船残骸，海盗站。它们会经常放出求救信号。注意，想要去探索会有危险。</value>
+  </data>
+  <data name="Description_FAQ_Experimental" xml:space="preserve">
+    <value>开启试验模式会启动很多不稳定的功能，可能导致游戏运行处问题。试验模式可以在游戏设置中启动。</value>
+  </data>
+  <data name="Description_FAQ_Factions" xml:space="preserve">
+    <value>在阵营中你可以和其他成员共享方块所有权。人人都可以建立阵营。</value>
+  </data>
+  <data name="Description_FAQ_FindOtherPlayers" xml:space="preserve">
+    <value>看看有没有阵营可以加入或者到处问问可不可以组队。看天线信号能找到玩家。</value>
+  </data>
+  <data name="Description_FAQ_Flashlight" xml:space="preserve">
+    <value>用{CONTROL:HEADLIGHTS}切换电灯。电灯会消耗宇航服的电，电用完后灯就不亮了。</value>
+  </data>
+  <data name="Description_FAQ_FlipRover" xml:space="preserve">
+    <value>您可以通过添加活塞并自行向上翻转车子，或者您可以尝试在网格中添加像电池这样的重块，然后通过改变它的重心进行翻滚。</value>
+  </data>
+  <data name="Description_FAQ_FrostbitePack" xml:space="preserve">
+    <value>Frostbite包内含一个新场景和四个新模块：天线、死亡的工程师、门和移门。此外，此DLC还具有冰冻装甲皮肤和液晶海报。</value>
+  </data>
+  <data name="Description_FAQ_Fuel" xml:space="preserve">
+    <value>反应堆需要铀锭。喷气背包和氢气推进器需要氢气。</value>
+  </data>
+  <data name="Description_FAQ_GameMode" xml:space="preserve">
+    <value>有两种模式。创意和生存。创意模式造船时，你不用考虑物料。可以在设置中改变游戏模式。</value>
+  </data>
+  <data name="Description_FAQ_GoodAI" xml:space="preserve">
+    <value>Marek Rosa在2014年一月创立了GoodAI，进行人工智能开发和研究。</value>
+  </data>
+  <data name="Description_FAQ_GoodBot" xml:space="preserve">
+    <value>我是友好机器人。我来为你尽力解答问题。有什么可以帮到你的吗？</value>
+  </data>
+  <data name="Description_FAQ_GoodBot_Q0" xml:space="preserve">
+    <value>Who are you</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_GoodBot_Q1" xml:space="preserve">
+    <value>What is your purpose</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_GoodBot_Q2" xml:space="preserve">
+    <value>What are you</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_GoodBot_Q3" xml:space="preserve">
+    <value>What can you do</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_GoodBot_Q4" xml:space="preserve">
+    <value>Help</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_GPSColors" xml:space="preserve">
+    <value>蓝色信号为你所有。白色是阵营的成员所有。红色为敌军所有。绿色和黄色为战利品分离舱。</value>
+  </data>
+  <data name="Description_FAQ_GPSSignals" xml:space="preserve">
+    <value>GPS信号可以再命令栏禁用或者开启。双击GPS信号将其禁用。GPS信号可以保存在液晶面板中或者在聊天中广播出去。小心暴露目标。</value>
+  </data>
+  <data name="Description_FAQ_Gravity" xml:space="preserve">
+    <value>行星上有重力。也可以用重力发生器方块制造虚拟重力。虚拟重力只有使用虚拟质量方块时才对方块起作用。</value>
+  </data>
+  <data name="Description_FAQ_Grid" xml:space="preserve">
+    <value>网格是方块的集合体，可以拼装成基站和飞船。</value>
+  </data>
+  <data name="Description_FAQ_GridMovement" xml:space="preserve">
+    <value>保证前进方向上安装了推进器，可以是多种动力。</value>
+  </data>
+  <data name="Description_FAQ_GridSize" xml:space="preserve">
+    <value>网格有大小两种规格。可以在工具栏中，重选同样的方块切换网格大小。不是所有的方块都有两种规格。</value>
+  </data>
+  <data name="Description_FAQ_Grinding" xml:space="preserve">
+    <value>你可以使用切割机拆解方块。切割的时候会回收组件并输送到库存。</value>
+  </data>
+  <data name="Description_FAQ_Groups" xml:space="preserve">
+    <value>可用用方块组这个功能同事使用多个方块。按Ctrl或者Shift选定方块编组。在屏幕的邮编输入名称然后按回车创建组。</value>
+  </data>
+  <data name="Description_FAQ_Hacking" xml:space="preserve">
+    <value>用切割机从方块中移除计算机组件可以破解方块。可以用焊接机建造并访问方块。</value>
+  </data>
+  <data name="Description_FAQ_HandHeldLaunchers" xml:space="preserve">
+    <value>手持发射器以超小包装提供有效的反装甲能力。手持发射器需要装备与其方块副本相同的火箭弹药。</value>
+  </data>
+  <data name="Description_FAQ_HandTools" xml:space="preserve">
+    <value>有三种手动工具。焊接器可以建造和维修。切割机可以回收和拆解，钻子可以挖矿，采矿和挖地道。</value>
+  </data>
+  <data name="Description_FAQ_Healing" xml:space="preserve">
+    <value>你如果受伤了，可以在医疗站接受治疗。按{CONTROL:USE}使用医疗站控制台。</value>
+  </data>
+  <data name="Description_FAQ_Help" xml:space="preserve">
+    <value>按{CONTROL:HELP_SCREEN}得到更多帮助或者问我。</value>
+  </data>
+  <data name="Description_FAQ_HowToPlayGame" xml:space="preserve">
+    <value>可以说得更具体点吗？</value>
+  </data>
+  <data name="Description_FAQ_HUD" xml:space="preserve">
+    <value>你可以按{CONTROL:TOGGLE_HUD}切换屏幕状态。按{CONTROL:TOGGLE_SIGNALS}切换GPS信号模式。</value>
+  </data>
+  <data name="Description_FAQ_Hydrogen" xml:space="preserve">
+    <value>喷气背包和氢推进器需要氢气作为燃料。O2/H2发生器可以用冰制造氢气。你可以使用氢气罐和氢气瓶储存氢气。</value>
+  </data>
+  <data name="Description_FAQ_Ice" xml:space="preserve">
+    <value>行星和小行星上有冰可以制造氢气和氧气。</value>
+  </data>
+  <data name="Description_FAQ_IndustrialCockpit" xml:space="preserve">
+    <value>工业驾驶舱视野范围大，能用在大小的网格上。此驾驶舱对战车和飞船很有用，在靠近表面和其他网格近距离时不会造成损伤。</value>
+  </data>
+  <data name="Description_FAQ_InertiaDampeners" xml:space="preserve">
+    <value>没有动力驱动的情况下，开启惯性抑制器会让你减速。用{CONTROL:DAMPING}切换抑制器。相对抑制器会让你和飞船的速度保持一致，可以用Ctrl-{CONTROL:DAMPING}切换。飞船的全方位都要有推进器保证有效地使用抑制器。</value>
+  </data>
+  <data name="Description_FAQ_Ingots" xml:space="preserve">
+    <value>在精炼厂将矿石炼成锭子后，可以加工成组件。</value>
+  </data>
+  <data name="Description_FAQ_Interaction" xml:space="preserve">
+    <value>门，驾驶舱和按钮面板等可伸缩物体是可交互的，并以黄色突出显示，按[{CONTROL:USE}]可进入或操控。</value>
+  </data>
+  <data name="Description_FAQ_InvalidMaterial" xml:space="preserve">
+    <value>抱歉，太空工程师没有此物品。</value>
+  </data>
+  <data name="Description_FAQ_Inventory" xml:space="preserve">
+    <value>按{CONTROL:INVENTORY}访问库存。将物品拖出库存后丢弃。按{CONTROL:PICK_UP}捡起物品。</value>
+  </data>
+  <data name="Description_FAQ_Jetpack" xml:space="preserve">
+    <value>你的喷气背包需要氢气。你可以在O2/H2发生器中用冰制造氢气。前往发生器重新加满氢气瓶，或者将发生器与医疗站或救生套件连接来直接加注氢气。</value>
+  </data>
+  <data name="Description_FAQ_Ladder" xml:space="preserve">
+    <value>你可以用梯子往上爬。多个梯子可接在一起。按{CONTROL:USE}对接。按住{CONTROL:FORWARD}或者{CONTROL:BACKWARD}上下移动。按{CONTROL:JUMP}下梯子。</value>
+  </data>
+  <data name="Description_FAQ_LeavePlanet" xml:space="preserve">
+    <value>需要飞船才能飞离有大气层的行星。最好的方法是给飞船配备氢气推进器和氢罐。</value>
+  </data>
+  <data name="Description_FAQ_LogOut" xml:space="preserve">
+    <value>离开服务器前可以进入低温仓。这样你的人物不会死亡。确保室内有氧气和电。</value>
+  </data>
+  <data name="Description_FAQ_LosingHealth" xml:space="preserve">
+    <value>无法呼吸吗？离推进器或者运转的工具太近？</value>
+  </data>
+  <data name="Description_FAQ_Lost" xml:space="preserve">
+    <value>你如果迷路了，可以随时按{CONTROL:SUICIDE}自杀后在最近的地方重生。</value>
+  </data>
+  <data name="Description_FAQ_MagneticBoots" xml:space="preserve">
+    <value>磁力靴只能在零重力环境下工作。会将你吸在小行星或者飞船的表面。在表面站立时，按{CONTROL:THRUSTS}关闭喷气背包，启用磁力靴。</value>
+  </data>
+  <data name="Description_FAQ_Marek" xml:space="preserve">
+    <value>Marek Rosa是K社和GoodAI的创始人兼总裁。</value>
+  </data>
+  <data name="Description_FAQ_Mass" xml:space="preserve">
+    <value>质量就是飞船的重量。装载矿石和组件的储存箱会大大影响飞船的性能。</value>
+  </data>
+  <data name="Description_FAQ_Math" xml:space="preserve">
+    <value>数学！我一直都在做！</value>
+  </data>
+  <data name="Description_FAQ_MergeGrids" xml:space="preserve">
+    <value>你可以用起落架或者连接器将网格互相连接。可以使用合并方块甚至转子永久合并大小相同的两个网格。</value>
+  </data>
+  <data name="Description_FAQ_Messages" xml:space="preserve">
+    <value>你可以在库存菜单中向阵营的其他玩家发私人信息。只有在天线开启别的玩家能收到信息时，可以发送信息。</value>
+  </data>
+  <data name="Description_FAQ_MetalScrap" xml:space="preserve">
+    <value>方块被破坏后能得到金属，可以在精炼机中冶炼成铁锭。</value>
+  </data>
+  <data name="Description_FAQ_Meteor" xml:space="preserve">
+    <value>可在世界设置中开启流星。可以建造加特林炮塔，车身或者建筑改用厚装甲，或者躲起来，降低流星袭击的风险。</value>
+  </data>
+  <data name="Description_FAQ_Mining" xml:space="preserve">
+    <value>你可以在行星和小行星体素上用钻子挖矿。钻子上有短程探测器显示矿石的方位。</value>
+  </data>
+  <data name="Description_FAQ_MirrorMode" xml:space="preserve">
+    <value>镜像模式只能在创意模式中使用，可以对称建造。按{CONTROL:SYMMETRY_SWITCH}可以循环使用六种模式。按鼠标左键确认放方块，右键移除。按{CONTROL:USE_SYMMETRY}暂时禁用镜像模式。</value>
+  </data>
+  <data name="Description_FAQ_Navigation" xml:space="preserve">
+    <value>可以创建GPS信号保存重要的位置和位标。用天线和信标发送网格的位置。但是要注意别人也能看到。用/GPS快速保存当前位置。</value>
+  </data>
+  <data name="Description_FAQ_NPCShip" xml:space="preserve">
+    <value>有货船在你周围。不要靠近，因为他们觉得你是威胁。</value>
+  </data>
+  <data name="Description_FAQ_Objective" xml:space="preserve">
+    <value>太空工程师是一款沙盒游戏。你可以设定自己的目标。在创意工坊中找到剧情和任务和你的朋友一起建造！左上角有任务目标。</value>
+  </data>
+  <data name="Description_FAQ_Objective_Q0" xml:space="preserve">
+    <value>What is my purpose</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_Objective_Q1" xml:space="preserve">
+    <value>Should I do something</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_Objective_Q2" xml:space="preserve">
+    <value>What can I do</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_Objective_Q3" xml:space="preserve">
+    <value>what Do I do</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_Objective_Q4" xml:space="preserve">
+    <value>What do I have to do</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_Objective_Q5" xml:space="preserve">
+    <value>what to do</value>
+    <comment>Question detected by GoodBot. Do not translate!</comment>
+  </data>
+  <data name="Description_FAQ_Ore" xml:space="preserve">
+    <value>矿石含有多种矿物，可以在精炼厂炼成锭子。行星和小行星上都有矿石。行星上暗的区域能找到矿石。</value>
+  </data>
+  <data name="Description_FAQ_Ownership" xml:space="preserve">
+    <value>如果你增加了计算机组件，便可拥有此方块。你也可以选择与你的阵营或者其他人共享所有权。</value>
+  </data>
+  <data name="Description_FAQ_Oxygen" xml:space="preserve">
+    <value>有些行星上有大气供人呼吸。O2/H2发生器可以用冰制造氧气，氧气场也可以供应氧气。氧气可以储存在氧气罐或者氧气瓶中。</value>
+  </data>
+  <data name="Description_FAQ_Painting" xml:space="preserve">
+    <value>按住方块，你可以用{CONTROL:CUBE_COLOR_CHANGE}为方块着色。按K进入颜色选项。使用Ctrl-{CONTROL:CUBE_COLOR_CHANGE}或者Shift-{CONTROL:CUBE_COLOR_CHANGE}大面积上色。</value>
+  </data>
+  <data name="Description_FAQ_PCU" xml:space="preserve">
+    <value>PCU是性能成本单位。建造和移除方块会减少和增加其数值。</value>
+  </data>
+  <data name="Description_FAQ_Permissions" xml:space="preserve">
+    <value>多人游戏时需要管理员允许后才能生成蓝图，编辑脚本或者传送。单人游戏时，你可以开启太空大师或者将世界模式改成创意。</value>
+  </data>
+  <data name="Description_FAQ_Pirates" xml:space="preserve">
+    <value>建造装甲，炮塔和诱饵保护自己免受海盗和其他玩家的攻击。</value>
+  </data>
+  <data name="Description_FAQ_Pistols" xml:space="preserve">
+    <value>随身武器可用于在敌军环境中保护自己。它们需要装备相应的弹夹。</value>
+  </data>
+  <data name="Description_FAQ_Planets" xml:space="preserve">
+    <value>无论远近都可以看到行星。如果你看不到行星，可能是因为你的世界里没有行星。</value>
+  </data>
+  <data name="Description_FAQ_Platinum" xml:space="preserve">
+    <value>铂金是稀有金属，只能在小行星和月球上找到。行星上没有。</value>
+  </data>
+  <data name="Description_FAQ_ProtectingMyself" xml:space="preserve">
+    <value>将基地藏在地下或者小行星内。建造炮塔和诱饵保护自己免受攻击。建造隐蔽医疗站为战时重生做准备。</value>
+  </data>
+  <data name="Description_FAQ_Pushing" xml:space="preserve">
+    <value>玩家可以走多或者飞行时推动小网格，但是它。不能太重。如果你要推拉重物，就需要建造飞船或者车子，然后用起落架抓住物体。</value>
+  </data>
+  <data name="Description_FAQ_Recharging" xml:space="preserve">
+    <value>可以坐在医疗站的任何座椅上给宇航服充电，如果驾驶舱通电了也可以充电。</value>
+  </data>
+  <data name="Description_FAQ_RelativeDampeners" xml:space="preserve">
+    <value>相对抑制器可以让你和移动的目标的速度和方向保存一致。对着目标按{CONTROL:DAMPING}即可。距离在100米内才可以。</value>
+  </data>
+  <data name="Description_FAQ_Repair" xml:space="preserve">
+    <value>使用焊接器维修受损方块。完全被破坏的方块需要更换或者使用投影仪进行快速修复。</value>
+  </data>
+  <data name="Description_FAQ_Rifles" xml:space="preserve">
+    <value>步枪显著优于基本手枪和其他随身武器，可对方块造成更多伤害，并且适合特殊角色。它们需要装备相应的弹夹。</value>
+  </data>
+  <data name="Description_FAQ_RoomPressure" xml:space="preserve">
+    <value>进气口菜单会显示室内压力。</value>
+  </data>
+  <data name="Description_FAQ_RoverMovement" xml:space="preserve">
+    <value>按{CONTROL:LANDING_GEAR}停止刹车或者按{CONTROL:TOGGLE_REACTORS}启动和停止。请先检查反应堆是否有燃料，电池是否有电。</value>
+  </data>
+  <data name="Description_FAQ_SafeZoneBlock" xml:space="preserve">
+    <value>安全区方块可以配置后保护你的基地。需要电力和区芯片。可以从交易站买到区芯片。</value>
+  </data>
+  <data name="Description_FAQ_SaveBlueprints" xml:space="preserve">
+    <value>可以将设计保存为蓝图，对准后按Ctrl和B。按F10打开蓝图菜单。</value>
+  </data>
+  <data name="Description_FAQ_ScrapRacePack" xml:space="preserve">
+    <value>Wasteland包中包含一个新的多人游戏场景和几个新模块，例如越野车车轮、车灯、越野车驾驶舱、视口模块和排气管。此外，此DLC还提供一些新的装甲和玩家皮肤，例如“重锈装甲皮肤”、“混凝土装甲皮肤”和“食腐动物角色皮肤”。</value>
+  </data>
+  <data name="Description_FAQ_ScreenShot" xml:space="preserve">
+    <value>默认按F12截图。或者如果你有Nividea Ansel，你可以按Alt F进入截图模式。</value>
+  </data>
+  <data name="Description_FAQ_Script" xml:space="preserve">
+    <value>可在世界设置中禁用脚本。</value>
+  </data>
+  <data name="Description_FAQ_Ship" xml:space="preserve">
+    <value>飞船是能飞的网格。每个方向都有推进器，转向的陀螺仪，驾驶舱还有电池或者的反应堆提供的动力。飞船可以由自己的想法设计成展示用或者有具有战斗力。</value>
+  </data>
+  <data name="Description_FAQ_ShipBuilding" xml:space="preserve">
+    <value>一个飞船至少配备有驾驶舱，陀螺仪，每个方向都要有推进器还要有电，可由反应堆或者电池提供。</value>
+  </data>
+  <data name="Description_FAQ_ShipInventories" xml:space="preserve">
+    <value>要用输送机连接各个库存。有些物品太大无法通过小口径输送通道。按{CONTROL:INVENTORY}打开个人库存</value>
+  </data>
+  <data name="Description_FAQ_ShipMovement" xml:space="preserve">
+    <value>按{CONTROL:TOGGLE_REACTORS}开启电源。想知道电量，请检查反应堆是否有燃料，电池是否有电。</value>
+  </data>
+  <data name="Description_FAQ_ShipToolsWeapons" xml:space="preserve">
+    <value>可以按{CONTROL:BUILD_SCREEN}将工具加到工具栏。拖动然后放入，或者右击工具自动添加到工具栏。当你在驾驶舱时，也可以这样操作。</value>
+  </data>
+  <data name="Description_FAQ_ShipWontFly" xml:space="preserve">
+    <value>你的飞船电够用吗？动力是否充足？抑制器开启没有？</value>
+  </data>
+  <data name="Description_FAQ_Skins" xml:space="preserve">
+    <value>在生存模式中可以找到投放的分离舱激活后获得皮肤。可以在医疗站定制人物。</value>
+  </data>
+  <data name="Description_FAQ_SOTFPack" xml:space="preserve">
+    <value>Sparks Of The Future包附带几个新模块，例如霓虹灯管、小网格门和独特的按钮面板。它还附带一些新角色动画和装甲皮肤。</value>
+  </data>
+  <data name="Description_FAQ_SpaceCredit" xml:space="preserve">
+    <value>太空货币是一种通用货币，用来和基站以及其他玩家交易。可以从存储模块存取货币。</value>
+  </data>
+  <data name="Description_FAQ_SpawnShip" xml:space="preserve">
+    <value>重生船上有你开始时需要的一切。生存套件、电力和O2/H2发生器。你可以只带必要的东西在新的基地中使用，不需要的时候可以丢弃。</value>
+  </data>
+  <data name="Description_FAQ_SpectatorMode" xml:space="preserve">
+    <value>进入旁观者模式，按F8转动转动摄像头，按F7在控制人物的时候保持旁观者摄像头。旁观者模式需要在世界设置中启动。</value>
+  </data>
+  <data name="Description_FAQ_Station" xml:space="preserve">
+    <value>基站是行星和小行星上静止的网格。如果有足够的动力，有些也可以飞。</value>
+  </data>
+  <data name="Description_FAQ_SteamWorkshop" xml:space="preserve">
+    <value>可以在{0}创意工坊中找到所有玩家上传的蓝图，剧情和模组。可以订阅后在游戏中使用。</value>
+  </data>
+  <data name="Description_FAQ_Stone" xml:space="preserve">
+    <value>石头可以在精炼机和生存套件中提炼出少量的基本原料，像铁，硅，镍等。</value>
+  </data>
+  <data name="Description_FAQ_StopMoving" xml:space="preserve">
+    <value>用{CONTROL:THRUSTS}开启喷气背包，用{CONTROL:DAMPING}开启抑制器。</value>
+  </data>
+  <data name="Description_FAQ_StoreBlock" xml:space="preserve">
+    <value>可以使用存储方块和其他玩家和阵营交易。启动带交易功能的连接器后，从飞船库存进行交易。</value>
+  </data>
+  <data name="Description_FAQ_StylePack" xml:space="preserve">
+    <value>风格包增加了玩家皮肤，装甲皮肤和表情供你在游戏中使用。</value>
+  </data>
+  <data name="Description_FAQ_Suit" xml:space="preserve">
+    <value>宇航服保证你在太空中生存。屏幕中有你的生命值，氢气，氧气和电力信息。还有磁力靴和喷气背包让你行走和飞行。</value>
+  </data>
+  <data name="Description_FAQ_Temperature" xml:space="preserve">
+    <value>温度会影响你的宇航服系统，极端条件下耗电量很大。如果断电，你会在极端环境中受到伤害。</value>
+  </data>
+  <data name="Description_FAQ_Test" xml:space="preserve">
+    <value>测试接收！</value>
+  </data>
+  <data name="Description_FAQ_Test_Q0" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="Description_FAQ_Test_Q1" xml:space="preserve">
+    <value>测试中</value>
+  </data>
+  <data name="Description_FAQ_Test_Q2" xml:space="preserve">
+    <value>有用吗</value>
+  </data>
+  <data name="Description_FAQ_Test_Q3" xml:space="preserve">
+    <value>有用吗</value>
+  </data>
+  <data name="Description_FAQ_Thing" xml:space="preserve">
+    <value>有试过别的办法吗？</value>
+  </data>
+  <data name="Description_FAQ_Thrusters" xml:space="preserve">
+    <value>推进器可以驱动飞船。不同的环境选择不同的推进器。气动推进器在太空无法工作！</value>
+  </data>
+  <data name="Description_FAQ_Time" xml:space="preserve">
+    <value>太空工程师启动！</value>
+  </data>
+  <data name="Description_FAQ_Tools" xml:space="preserve">
+    <value>焊接器造方块，切割机拆解方块，钻子发现矿石还能挖地道。可以用基本原料用生存套件制造工具。</value>
+  </data>
+  <data name="Description_FAQ_TradeStations" xml:space="preserve">
+    <value>贸易站可以在行星，卫星上和深空中上重生。 看哪个阵营有交易站，可以卖矿石，组件，弹药，燃料和飞船。也可以签订合同。</value>
+  </data>
+  <data name="Description_FAQ_Trading" xml:space="preserve">
+    <value>可以用存储方块与玩家和站点进行交易。按F3就能和玩家交易。</value>
+  </data>
+  <data name="Description_FAQ_Tutorial" xml:space="preserve">
+    <value>观看”学习生存“学习太空工程师的基本知识。注意方块的工具提示并学习其功能。我们会尽力的帮助你！</value>
+  </data>
+  <data name="Description_FAQ_UnknownSignals" xml:space="preserve">
+    <value>信号显示出分离舱的位置，在生存模式中你可以获得战利品和皮肤。信号弱的话，就只有你可以看。如果信号强，服务器中所有的人都能看到，但是战利品会更好。</value>
+  </data>
+  <data name="Description_FAQ_Unlock" xml:space="preserve">
+    <value>你可以通过建造其他所需的块来解锁新方块。你可以进入G屏幕中查看哪些方块将解锁下一个方块。</value>
+  </data>
+  <data name="Description_FAQ_Upgrade" xml:space="preserve">
+    <value>可以在装配机中装配更好的工具。可以加升级模块升级精炼机和装配机，使其更快，更有效率和节能。</value>
+  </data>
+  <data name="Description_FAQ_Uranium" xml:space="preserve">
+    <value>铀是稀有金属，只能在小行星和月球上找到。行星上没有。</value>
+  </data>
+  <data name="Description_FAQ_Visor" xml:space="preserve">
+    <value>按{CONTROL:HELMET}打开和关闭头盔。在太空中不要打开，担心窒息！</value>
+  </data>
+  <data name="Description_FAQ_Voxel" xml:space="preserve">
+    <value>体素是行星和小行星物理形态。用钻子挖矿能改变其形态。在创造模式用体素手创建各种形状</value>
+  </data>
+  <data name="Description_FAQ_VoxelHands" xml:space="preserve">
+    <value>体素手只能在创意模式使用，你可以做出各种形状并修改。可在世界设置中启动。</value>
+  </data>
+  <data name="Description_FAQ_Warfare1" xml:space="preserve">
+    <value>“Warfare 1: Field Engineer”提供了各种新方块，例如半窗、射击孔、武器架和防火掩体以及新的皮肤和表情。</value>
+  </data>
+  <data name="Description_FAQ_Weather" xml:space="preserve">
+    <value>每个行星上都有独特的天气系统，会影响阳光、风、氧气和温度。闪电可能很危险，会损坏你的建筑，但会优先破坏某些模块。可以在世界设置中禁用天气。</value>
+  </data>
+  <data name="Description_FAQ_Welding" xml:space="preserve">
+    <value>对方块使用焊接器进行建造或者修复。焊接消耗你的宇航服的电还需要组件。也可以在飞船上建造焊接器。</value>
+  </data>
+  <data name="Description_FAQ_WhatIsABlock" xml:space="preserve">
+    <value>方块可以拼成飞船。有大型和小型两类。可以按{CONTROL:BUILD_SCREEN}在菜单中搜索方块。</value>
+  </data>
+
+</root>

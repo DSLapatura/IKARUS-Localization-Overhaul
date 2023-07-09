@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="DisplayName_Item_AdvancedHandHeldLauncher" xml:space="preserve">
+    <value>PRO-1 高精度火箭发射器</value>
+  </data>
+  <data name="DisplayName_Item_AngleGrinder" xml:space="preserve">
+    <value>切割机-qgj-</value>
+    <comment>Angle grinder hand tool for dismounting blocks</comment>
+  </data>
+  <data name="DisplayName_Item_AngleGrinder2" xml:space="preserve">
+    <value>一级增强切割机-yjzqkgj-</value>
+  </data>
+  <data name="DisplayName_Item_AngleGrinder3" xml:space="preserve">
+    <value>二级精通切割机-ejjtqgj-</value>
+  </data>
+  <data name="DisplayName_Item_AngleGrinder4" xml:space="preserve">
+    <value>三级精英切割机-sjjyqgj-</value>
+  </data>
+  <data name="DisplayName_Item_AutoCannonClip" xml:space="preserve">
+    <value>25mm×16 机炮弹匣</value>
+  </data>
+  <data name="DisplayName_Item_AutomaticRifle" xml:space="preserve">
+    <value>MR-20 半自动步枪</value>
+  </data>
+  <data name="DisplayName_Item_AutomaticRifleGun_Mag_20rd" xml:space="preserve">
+    <value>MR-20 步枪弹匣</value>
+  </data>
+  <data name="DisplayName_Item_BasicHandHeldLauncher" xml:space="preserve">
+    <value>RO-1 火箭发射器</value>
+  </data>
+  <data name="DisplayName_Item_BulletproofGlass" xml:space="preserve">
+    <value>防弹玻璃-fdbl-</value>
+  </data>
+  <data name="DisplayName_Item_CanvasCartridge" xml:space="preserve">
+    <value>帆布-fb-</value>
+  </data>
+  <data name="DisplayName_Item_ClangCola" xml:space="preserve">
+    <value>K乐</value>
+  </data>
+  <data name="DisplayName_Item_CobaltIngot" xml:space="preserve">
+    <value>钴锭-Co-</value>
+  </data>
+  <data name="DisplayName_Item_CobaltOre" xml:space="preserve">
+    <value>钴矿-CoAsS-</value>
+  </data>
+  <data name="DisplayName_Item_Computer" xml:space="preserve">
+    <value>计算机-jsj-</value>
+  </data>
+  <data name="DisplayName_Item_ConstructionComponent" xml:space="preserve">
+    <value>结构零件-jglj-</value>
+  </data>
+  <data name="DisplayName_Item_CosmicCoffee" xml:space="preserve">
+    <value>K啡</value>
+  </data>
+  <data name="DisplayName_Item_Datapad" xml:space="preserve">
+    <value>数据板</value>
+  </data>
+  <data name="DisplayName_Item_DetectorComponents" xml:space="preserve">
+    <value>探测器零件-tcqlj-</value>
+  </data>
+  <data name="DisplayName_Item_Display" xml:space="preserve">
+    <value>显示器-xsq-</value>
+  </data>
+  <data name="DisplayName_Item_EliteAutomaticRifle" xml:space="preserve">
+    <value>MR-30E 高级步枪</value>
+  </data>
+  <data name="DisplayName_Item_ElitePistol" xml:space="preserve">
+    <value>S-10E 高级手枪</value>
+  </data>
+  <data name="DisplayName_Item_ElitePistolMagazine" xml:space="preserve">
+    <value>S-10E 手枪弹匣</value>
+  </data>
+  <data name="DisplayName_Item_Explosives" xml:space="preserve">
+    <value>爆炸物-bzw-</value>
+  </data>
+  <data name="DisplayName_Item_FullAutoPistol" xml:space="preserve">
+    <value>S-20A 自动手枪</value>
+  </data>
+  <data name="DisplayName_Item_FullAutoPistolMagazine" xml:space="preserve">
+    <value>S-20A 手枪弹匣</value>
+  </data>
+  <data name="DisplayName_Item_Girder" xml:space="preserve">
+    <value>梁-liang-</value>
+  </data>
+  <data name="DisplayName_Item_GoldIngot" xml:space="preserve">
+    <value>金锭-Au-</value>
+  </data>
+  <data name="DisplayName_Item_GoldOre" xml:space="preserve">
+    <value>金矿-Au2S3-</value>
+  </data>
+  <data name="DisplayName_Item_Gravel" xml:space="preserve">
+    <value>沙石</value>
+  </data>
+  <data name="DisplayName_Item_GravityGeneratorComponents" xml:space="preserve">
+    <value>重力发生器零件-zlfsqlj-</value>
+  </data>
+  <data name="DisplayName_Item_HandDrill" xml:space="preserve">
+    <value>手电钻-sdz-</value>
+  </data>
+  <data name="DisplayName_Item_HandDrill2" xml:space="preserve">
+    <value>一级增强手电钻-yjzqsdz-</value>
+  </data>
+  <data name="DisplayName_Item_HandDrill3" xml:space="preserve">
+    <value>二级精通手电钻-ejjtsdz-</value>
+  </data>
+  <data name="DisplayName_Item_HandDrill4" xml:space="preserve">
+    <value>三级精英手电钻-sjjysdz-</value>
+  </data>
+  <data name="DisplayName_Item_Hydrogen" xml:space="preserve">
+    <value>氢气</value>
+  </data>
+  <data name="DisplayName_Item_HydrogenBottle" xml:space="preserve">
+    <value>氢气瓶-qqp-</value>
+  </data>
+  <data name="DisplayName_Item_HydrogenBottles" xml:space="preserve">
+    <value>氢气瓶</value>
+  </data>
+  <data name="DisplayName_Item_Ice" xml:space="preserve">
+    <value>冰</value>
+  </data>
+  <data name="DisplayName_Item_InteriorPlate" xml:space="preserve">
+    <value>内衬板-ncb-</value>
+  </data>
+  <data name="DisplayName_Item_InteriorTurret_Mag_100rd" xml:space="preserve">
+    <value>5.56mm×100 室内炮塔弹药箱</value>
+  </data>
+  <data name="DisplayName_Item_IronIngot" xml:space="preserve">
+    <value>铁锭-Fe-</value>
+  </data>
+  <data name="DisplayName_Item_IronOre" xml:space="preserve">
+    <value>铁矿-Fe2O3-</value>
+  </data>
+  <data name="DisplayName_Item_LargeCalibreAmmo" xml:space="preserve">
+    <value>63mm 重型火炮穿甲弹</value>
+  </data>
+  <data name="DisplayName_Item_LargeRailgunAmmo" xml:space="preserve">
+    <value>152mm 大型轨道炮穿甲弹</value>
+  </data>
+  <data name="DisplayName_Item_LargeSteelTube" xml:space="preserve">
+    <value>大型钢管-dxgg-</value>
+  </data>
+  <data name="DisplayName_Item_MagnesiumOre" xml:space="preserve">
+    <value>镁矿-MgCO3-</value>
+  </data>
+  <data name="DisplayName_Item_MagnesiumPowder" xml:space="preserve">
+    <value>镁粉-Mg-</value>
+  </data>
+  <data name="DisplayName_Item_MedicalComponents" xml:space="preserve">
+    <value>医疗零件-yllj-</value>
+  </data>
+  <data name="DisplayName_Item_MediumCalibreAmmo" xml:space="preserve">
+    <value>38mm 突击火炮穿甲弹</value>
+  </data>
+  <data name="DisplayName_Item_Medkit" xml:space="preserve">
+    <value>医疗箱</value>
+  </data>
+  <data name="DisplayName_Item_MetalGrid" xml:space="preserve">
+    <value>金属网格-jswg-</value>
+  </data>
+  <data name="DisplayName_Item_Missile200mm" xml:space="preserve">
+    <value>200mm 火箭弹</value>
+  </data>
+  <data name="DisplayName_Item_Motor" xml:space="preserve">
+    <value>马达-md-</value>
+  </data>
+  <data name="DisplayName_Item_NATO_25x184mm" xml:space="preserve">
+    <value>12.7mm×140 加特林机枪弹药箱</value>
+  </data>
+  <data name="DisplayName_Item_NATO_5p56x45mm" xml:space="preserve">
+    <value>5.56mm 步枪制式弹弹匣</value>
+  </data>
+  <data name="DisplayName_Item_NickelIngot" xml:space="preserve">
+    <value>镍锭-NiS-</value>
+  </data>
+  <data name="DisplayName_Item_NickelOre" xml:space="preserve">
+    <value>镍矿-Ni-</value>
+  </data>
+  <data name="DisplayName_Item_Organic" xml:space="preserve">
+    <value>有机物</value>
+  </data>
+  <data name="DisplayName_Item_Oxygen" xml:space="preserve">
+    <value>氧气</value>
+  </data>
+  <data name="DisplayName_Item_OxygenBottle" xml:space="preserve">
+    <value>氧气瓶-yqp-</value>
+  </data>
+  <data name="DisplayName_Item_OxygenBottles" xml:space="preserve">
+    <value>氧气瓶</value>
+  </data>
+  <data name="DisplayName_Item_Package" xml:space="preserve">
+    <value>包裹</value>
+  </data>
+  <data name="DisplayName_Item_PlatinumIngot" xml:space="preserve">
+    <value>铂金锭-Pt-</value>
+  </data>
+  <data name="DisplayName_Item_PlatinumOre" xml:space="preserve">
+    <value>铂金矿-PtAs2-</value>
+  </data>
+  <data name="DisplayName_Item_Potassium" xml:space="preserve">
+    <value>钾-K-</value>
+  </data>
+  <data name="DisplayName_Item_PowerCell" xml:space="preserve">
+    <value>动力电池-dldc-</value>
+  </data>
+  <data name="DisplayName_Item_Powerkit" xml:space="preserve">
+    <value>备用电池</value>
+  </data>
+  <data name="DisplayName_Item_PreciseAutomaticRifle" xml:space="preserve">
+    <value>MR-8P 高精度步枪</value>
+  </data>
+  <data name="DisplayName_Item_PreciseAutomaticRifleGun_Mag_5rd" xml:space="preserve">
+    <value>MR-8P 步枪弹匣</value>
+  </data>
+  <data name="DisplayName_Item_RadioCommunicationComponents" xml:space="preserve">
+    <value>无线电零件-wxdlj-</value>
+  </data>
+  <data name="DisplayName_Item_RapidFireAutomaticRifle" xml:space="preserve">
+    <value>MR-50A 全自动步枪</value>
+  </data>
+  <data name="DisplayName_Item_RapidFireAutomaticRifleGun_Mag_50rd" xml:space="preserve">
+    <value>MR-50A 步枪弹匣</value>
+  </data>
+  <data name="DisplayName_Item_ReactorComponents" xml:space="preserve">
+    <value>反应堆零件-fydlj-</value>
+  </data>
+  <data name="DisplayName_Item_Scrap" xml:space="preserve">
+    <value>废金属-fjs-</value>
+  </data>
+  <data name="DisplayName_Item_ScrapIngot" xml:space="preserve">
+    <value>金属碎片-jssp-</value>
+  </data>
+  <data name="DisplayName_Item_SemiAutoPistol" xml:space="preserve">
+    <value>S-10 手枪</value>
+  </data>
+  <data name="DisplayName_Item_SemiAutoPistolMagazine" xml:space="preserve">
+    <value>S-10 手枪弹匣</value>
+  </data>
+  <data name="DisplayName_Item_SiliconOre" xml:space="preserve">
+    <value>硅矿-SiO2-</value>
+  </data>
+  <data name="DisplayName_Item_SiliconWafer" xml:space="preserve">
+    <value>硅片-Si-</value>
+  </data>
+  <data name="DisplayName_Item_SilverIngot" xml:space="preserve">
+    <value>银锭-Ag-</value>
+  </data>
+  <data name="DisplayName_Item_SilverOre" xml:space="preserve">
+    <value>银矿-Ag2S-</value>
+  </data>
+  <data name="DisplayName_Item_SmallRailgunAmmo" xml:space="preserve">
+    <value>31mm 小型轨道炮穿甲弹</value>
+  </data>
+  <data name="DisplayName_Item_SmallSteelTube" xml:space="preserve">
+    <value>小钢管-xgg-</value>
+  </data>
+  <data name="DisplayName_Item_SolarCell" xml:space="preserve">
+    <value>太阳能电池板-tyndcb-</value>
+  </data>
+  <data name="DisplayName_Item_SpaceCredit" xml:space="preserve">
+    <value>太空货币</value>
+  </data>
+  <data name="DisplayName_Item_SteelPlate" xml:space="preserve">
+    <value>钢板-gb-</value>
+  </data>
+  <data name="DisplayName_Item_StoneOre" xml:space="preserve">
+    <value>石头</value>
+  </data>
+  <data name="DisplayName_Item_Superconductor" xml:space="preserve">
+    <value>超导体-cdt-</value>
+  </data>
+  <data name="DisplayName_Item_ThrustComponents" xml:space="preserve">
+    <value>推进器零件-tjqlj-</value>
+  </data>
+  <data name="DisplayName_Item_UltimateAutomaticRifleGun_Mag_30rd" xml:space="preserve">
+    <value>MR-30E 步枪弹匣</value>
+  </data>
+  <data name="DisplayName_Item_Uncraftable" xml:space="preserve">
+    <value>不可制作</value>
+  </data>
+  <data name="DisplayName_Item_UraniumIngot" xml:space="preserve">
+    <value>铀棒-U-</value>
+  </data>
+  <data name="DisplayName_Item_UraniumOre" xml:space="preserve">
+    <value>铀矿-UO2-</value>
+  </data>
+  <data name="DisplayName_Item_Welder" xml:space="preserve">
+    <value>焊接器-hjq-</value>
+  </data>
+  <data name="DisplayName_Item_Welder2" xml:space="preserve">
+    <value>一级增强焊接器-yjzqhjq-</value>
+  </data>
+  <data name="DisplayName_Item_Welder3" xml:space="preserve">
+    <value>二级增强焊接器-ejzqhjq-</value>
+  </data>
+  <data name="DisplayName_Item_Welder4" xml:space="preserve">
+    <value>三级增强焊接器-sjzqhjq-</value>
+  </data>
+  <data name="DisplayName_Item_ZoneChip" xml:space="preserve">
+    <value>安全区芯片</value>
+  </data>
+
+</root>

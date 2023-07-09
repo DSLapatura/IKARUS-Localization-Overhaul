@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Quote00Author" xml:space="preserve">
+    <value>嘉登</value>
+  </data>
+  <data name="Quote00Text" xml:space="preserve">
+    <value>时间与知识的积累带来的不断改进，正是我作品的精华所在。</value>
+  </data>
+  <data name="Quote01Author" xml:space="preserve">
+    <value>马克斯·普朗克</value>
+  </data>
+  <data name="Quote01Text" xml:space="preserve">
+    <value>只有那些孜孜以求却并不汲汲于任何可见目标的人，才能够获得科学发现和科学知识。</value>
+  </data>
+  <data name="Quote02Author" xml:space="preserve">
+    <value>阿尔伯特·爱因斯坦</value>
+  </data>
+  <data name="Quote02Text" xml:space="preserve">
+    <value>只要你不放弃尝试，就永远不会失败。</value>
+  </data>
+  <data name="Quote03Author" xml:space="preserve">
+    <value>刘慈欣</value>
+  </data>
+  <data name="Quote03Text" xml:space="preserve">
+    <value>必须渺小，才能感受宏大；必须脆弱，才能敬畏坚强；必须短暂，才能感受永恒。</value>
+  </data>
+  <data name="Quote04Author" xml:space="preserve">
+    <value>刘慈欣</value>
+  </data>
+  <data name="Quote04Text" xml:space="preserve">
+    <value>大不等于强大。</value>
+  </data>
+  <data name="Quote05Author" xml:space="preserve">
+    <value>阿尔伯特·爱因斯坦</value>
+  </data>
+  <data name="Quote05Text" xml:space="preserve">
+    <value>在一个崇高的目标支持下，不停地工作，即使慢，也一定会获得成功</value>
+  </data>
+  <data name="Quote06Author" xml:space="preserve">
+    <value>伊曼努尔·康德</value>
+  </data>
+  <data name="Quote06Text" xml:space="preserve">
+    <value>科学是系统化的知识，智慧是有组织的生活。</value>
+  </data>
+  <data name="Quote07Author" xml:space="preserve">
+    <value>马克斯·普朗克</value>
+  </data>
+  <data name="Quote07Text" xml:space="preserve">
+    <value>一个新的科学真理取得胜利并不是通过让它的反对者们信服并看到真理的光明，而是通过这些反对者们最终死去，熟悉它的新一代成长起来。</value>
+  </data>
+  <data name="Quote08Author" xml:space="preserve">
+    <value>卡尔·马克思</value>
+  </data>
+  <data name="Quote08Text" xml:space="preserve">
+    <value>人要学会走路，也要学会摔跤。而且只有经过摔跤，才能学会走路。</value>
+  </data>
+  <data name="Quote09Author" xml:space="preserve">
+    <value>阿尔伯特·爱因斯坦</value>
+  </data>
+  <data name="Quote09Text" xml:space="preserve">
+    <value>一个从未犯错的人，必然不曾尝试过新鲜事物。</value>
+  </data>
+  <data name="Quote10Author" xml:space="preserve">
+    <value>弗里德里希·恩格斯</value>
+  </data>
+  <data name="Quote10Text" xml:space="preserve">
+    <value>逆境使天才脱颖而出，顺境则会埋没。</value>
+  </data>
+  <data name="Quote11Author" xml:space="preserve">
+    <value>杨振宁</value>
+  </data>
+  <data name="Quote11Text" xml:space="preserve">
+    <value>只要持之以恒，知识丰富了，终能发现其奥秘。</value>
+  </data>
+  <data name="Quote12Author" xml:space="preserve">
+    <value>德米特里·伊万诺维奇·门捷列夫</value>
+  </data>
+  <data name="Quote12Text" xml:space="preserve">
+    <value>天才就是这样，终身努力，便成天才。</value>
+  </data>
+  <data name="Quote13Author" xml:space="preserve">
+    <value>列奥纳多·达·芬奇</value>
+  </data>
+  <data name="Quote13Text" xml:space="preserve">
+    <value>我已经冒犯了上帝和芸芸众生，因为我的作品没有达到它应有的水平。</value>
+  </data>
+  <data name="Quote14Author" xml:space="preserve">
+    <value>列奥纳多·达·芬奇</value>
+  </data>
+  <data name="Quote14Text" xml:space="preserve">
+    <value>你只要尝试过飞，日后走路时也会仰望天空，因为那是你曾经到过，并渴望回去的地方。</value>
+  </data>
+  <data name="Quote15Author" xml:space="preserve">
+    <value>伽利略·伽利莱</value>
+  </data>
+  <data name="Quote15Text" xml:space="preserve">
+    <value>一个人可以通过否定科学原理，来维持任何悖论。</value>
+  </data>
+  <data name="Quote16Author" xml:space="preserve">
+    <value>德谟克利特</value>
+  </data>
+  <data name="Quote16Text" xml:space="preserve">
+    <value>迎头搏击才能前进，勇气会减轻命运的打击。</value>
+  </data>
+  <data name="Quote17Author" xml:space="preserve">
+    <value>伽利略·伽利莱</value>
+  </data>
+  <data name="Quote17Text" xml:space="preserve">
+    <value>如果我能重新开始我的研究，我将听从柏拉图的建议，从数学开始。</value>
+  </data>
+  <data name="Quote18Author" xml:space="preserve">
+    <value>约翰·沃尔夫冈·歌德·</value>
+  </data>
+  <data name="Quote18Text" xml:space="preserve">
+    <value>我们只看到我们了解的事物。</value>
+  </data>
+  <data name="Quote19Author" xml:space="preserve">
+    <value>尼尔斯·亨利克·戴维·玻尔</value>
+  </data>
+  <data name="Quote19Text" xml:space="preserve">
+    <value>如果谁说他能一直清醒地思考量子论问题，那只能证明他什么都不懂。</value>
+  </data>
+  <data name="Quote20Author" xml:space="preserve">
+    <value>列奥纳多·达·芬奇</value>
+  </data>
+  <data name="Quote20Text" xml:space="preserve">
+    <value>批评一件你不了解的事情，比赞美它更可恶。</value>
+  </data>
+  <data name="Quote21Author" xml:space="preserve">
+    <value>迈克尔·法拉第</value>
+  </data>
+  <data name="Quote21Text" xml:space="preserve">
+    <value>希望你们年轻的一代，也能像蜡烛为人照明那样，有一分热，发一分光，忠诚而踏实地为人类伟大的事业贡献自己的力量。</value>
+  </data>
+  <data name="Quote22Author" xml:space="preserve">
+    <value>沃尔特·巴杰特</value>
+  </data>
+  <data name="Quote22Text" xml:space="preserve">
+    <value>生活的一大乐趣便是完成别人认为你不能做到的事情。</value>
+  </data>
+  <data name="Quote23Author" xml:space="preserve">
+    <value>佚名</value>
+  </data>
+  <data name="Quote23Text" xml:space="preserve">
+    <value>人类一思考，上帝就发笑，但如果人类不思考，上帝连发笑都不屑。</value>
+  </data>
+  <data name="Quote24Author" xml:space="preserve">
+    <value>苏格拉底</value>
+  </data>
+  <data name="Quote24Text" xml:space="preserve">
+    <value>认识自己的无知就是最大的智慧。</value>
+  </data>
+  <data name="Quote25Author" xml:space="preserve">
+    <value>亚瑟·查理斯·克拉克</value>
+  </data>
+  <data name="Quote25Text" xml:space="preserve">
+    <value>任何非常先进的技术，初看都与魔法无异。</value>
+  </data>
+  <data name="Quote26Author" xml:space="preserve">
+    <value>威廉·福特·吉布森</value>
+  </data>
+  <data name="Quote26Text" xml:space="preserve">
+    <value>如果你想了解事物运行的原理，把它们拆开来研究。</value>
+  </data>
+  <data name="Quote27Author" xml:space="preserve">
+    <value>史考特·亚当斯</value>
+  </data>
+  <data name="Quote27Text" xml:space="preserve">
+    <value>工程师喜欢解决问题。如果手边没有待解决的问题，他们会自己创造问题。</value>
+  </data>
+  <data name="Quote28Author" xml:space="preserve">
+    <value>罗伯特·安森·海因莱因</value>
+  </data>
+  <data name="Quote28Text" xml:space="preserve">
+    <value>一个人看来是“魔法”，在另一个人看来却是工程学。“超自然”是个没用的词。</value>
+  </data>
+  <data name="Quote29Author" xml:space="preserve">
+    <value>尼古拉·特斯拉</value>
+  </data>
+  <data name="Quote29Text" xml:space="preserve">
+    <value>当天生的爱好发展成为一个强烈的愿望时，一个人会以惊人的速度向着他的目标大跨步地奔去。</value>
+  </data>
+  <data name="Quote30Author" xml:space="preserve">
+    <value>斯蒂芬·威廉·霍金</value>
+  </data>
+  <data name="Quote30Text" xml:space="preserve">
+    <value>记住要仰望星空，不要低头看脚下。无论生活如何艰难，请保持一颗好奇心。你总会找到自己的路和属于你的成功。</value>
+  </data>
+  <data name="Quote31Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote31Text" xml:space="preserve">
+    <value>一个太空工程师是一个能够运用科学知识、数学、物理学、天文学、推进技术、材料科学、结构分析、制造业以及心理学在太空解决实际问题的专业人士。</value>
+  </data>
+  <data name="Quote32Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote32Text" xml:space="preserve">
+    <value>太空工程师设计材料、结构和系统，同时考虑到由实用性、惯例、安全、道德和成本的限制。</value>
+  </data>
+  <data name="Quote33Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote33Text" xml:space="preserve">
+    <value>太空工程师以应用科学为基础，并且他们在研究和开发上的工作与太空科学家在基础研究上的重点有明显差别。</value>
+  </data>
+  <data name="Quote34Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote34Text" xml:space="preserve">
+    <value>在战时，太空工程同样涉及军事工程。在战斗环境中，这项任务通常包含建造与拆除任务。</value>
+  </data>
+  <data name="Quote35Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote35Text" xml:space="preserve">
+    <value>对太空工程师的需求非常大，尤其是从2029年的第二次太空竞赛以来。</value>
+  </data>
+  <data name="Quote36Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote36Text" xml:space="preserve">
+    <value>太空工程师为他们有能力完成任务而自豪，无论任务有多庞大、多繁杂、多生僻。</value>
+  </data>
+  <data name="Quote37Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote37Text" xml:space="preserve">
+    <value>“Engineer”（工程师）这个词由拉丁文“ingeniare”（设计与发明）以及“ingenium”（智慧）演变而来。</value>
+  </data>
+  <data name="Quote38Author" xml:space="preserve">
+    <value>佚名</value>
+  </data>
+  <data name="Quote38Text" xml:space="preserve">
+    <value>对于乐观主义者而言，杯子是半满的。对于悲观主义者而言，杯子是半空的。对于工程师而言，杯子的尺寸比实际需求大了一倍。</value>
+  </data>
+  <data name="Quote39Author" xml:space="preserve">
+    <value>沃纳·卡尔·海森堡</value>
+  </data>
+  <data name="Quote39Text" xml:space="preserve">
+    <value>提出正确的问题，往往等于解决了问题的大半。</value>
+  </data>
+  <data name="Quote40Author" xml:space="preserve">
+    <value>美国陆军军械部</value>
+  </data>
+  <data name="Quote40Text" xml:space="preserve">
+    <value>曳光弹可以让你看见别人，同时也能让别人看见你。</value>
+  </data>
+  <data name="Quote41Author" xml:space="preserve">
+    <value>美国空军弹药部</value>
+  </data>
+  <data name="Quote41Text" xml:space="preserve">
+    <value>如果你看见了一个拆弹专家在跑，赶紧跟着跑。</value>
+  </data>
+  <data name="Quote42Author" xml:space="preserve">
+    <value>佚名</value>
+  </data>
+  <data name="Quote42Text" xml:space="preserve">
+    <value>只有在自己着火的时候你才会嫌燃料多。</value>
+  </data>
+  <data name="Quote43Author" xml:space="preserve">
+    <value>佚名</value>
+  </data>
+  <data name="Quote43Text" xml:space="preserve">
+    <value>不要拿运气换技术。</value>
+  </data>
+  <data name="Quote44Author" xml:space="preserve">
+    <value>乔恩·麦克布莱德</value>
+  </data>
+  <data name="Quote44Text" xml:space="preserve">
+    <value>一个无所畏惧的飞行员大概是没有把他的飞机开到极限。</value>
+  </data>
+  <data name="Quote45Author" xml:space="preserve">
+    <value>亚历山大·卡尔德</value>
+  </data>
+  <data name="Quote45Text" xml:space="preserve">
+    <value>对于一个工程师，足够好就是完美。对于一个艺术家，世上无完事。</value>
+  </data>
+  <data name="Quote46Author" xml:space="preserve">
+    <value>斯蒂芬·威廉·霍金</value>
+  </data>
+  <data name="Quote46Text" xml:space="preserve">
+    <value>知识的敌人不是无知，而是已经掌握知识的幻觉。</value>
+  </data>
+  <data name="Quote47Author" xml:space="preserve">
+    <value>艾萨克·牛顿</value>
+  </data>
+  <data name="Quote47Text" xml:space="preserve">
+    <value>跌倒了，爬起来，便会成功。</value>
+  </data>
+  <data name="Quote48Author" xml:space="preserve">
+    <value>艾萨克·牛顿</value>
+  </data>
+  <data name="Quote48Text" xml:space="preserve">
+    <value>把简单的事情考虑得很复杂，可以发现新领域；把复杂的现象看得很简单，可以发现新定律。</value>
+  </data>
+  <data name="Quote49Author" xml:space="preserve">
+    <value>威廉·莎士比亚</value>
+  </data>
+  <data name="Quote49Text" xml:space="preserve">
+    <value>黑夜无论怎样悠长，白昼总会到来。</value>
+  </data>
+  <data name="Quote50Author" xml:space="preserve">
+    <value>麦克·柯林斯</value>
+  </data>
+  <data name="Quote50Text" xml:space="preserve">
+    <value>造访无人曾造访之境，成就无人曾成就之事--这便是人生的一切。</value>
+  </data>
+  <data name="Quote51Author" xml:space="preserve">
+    <value>拉尔夫·沃尔多·爱默生</value>
+  </data>
+  <data name="Quote51Text" xml:space="preserve">
+    <value>不要去道路所通向的地方，去没有道路的地方，并留下足迹。</value>
+  </data>
+  <data name="Quote52Author" xml:space="preserve">
+    <value>尤里·加加林</value>
+  </data>
+  <data name="Quote52Text" xml:space="preserve">
+    <value>成为第一个进入宇宙的人，独自参与一个史无前例的与大自然的决斗--夫复何求?</value>
+  </data>
+  <data name="Quote53Author" xml:space="preserve">
+    <value>尤里·加加林</value>
+  </data>
+  <data name="Quote53Text" xml:space="preserve">
+    <value>宇航员的路是艰难的、必胜的、向荣耀的进军的路。在进入太空舱之前，你必须知道喜悦的意义，还有悲伤的意义。</value>
+  </data>
+  <data name="Quote54Author" xml:space="preserve">
+    <value>罗伯特 H.戈达德</value>
+  </data>
+  <data name="Quote54Text" xml:space="preserve">
+    <value>昨日的梦想是今日之希望，会在明日实现。</value>
+  </data>
+  <data name="Quote55Author" xml:space="preserve">
+    <value>墨子</value>
+  </data>
+  <data name="Quote55Text" xml:space="preserve">
+    <value>良马难乘，然可以任重致远；良才难令，然可以致君见尊</value>
+  </data>
+  <data name="Quote56Author" xml:space="preserve">
+    <value>阿尔伯特·爱因斯坦</value>
+  </data>
+  <data name="Quote56Text" xml:space="preserve">
+    <value>无论进行多少次实验，都无法证明我是正确的；但仅仅一次试验，就能证明我是错误的。</value>
+  </data>
+  <data name="Quote57Author" xml:space="preserve">
+    <value>弗兰茨·卡夫卡</value>
+  </data>
+  <data name="Quote57Text" xml:space="preserve">
+    <value>越是虚构的故事，细节处越要真实。</value>
+  </data>
+  <data name="Quote58Author" xml:space="preserve">
+    <value>尼古拉·哥白尼</value>
+  </data>
+  <data name="Quote58Text" xml:space="preserve">
+    <value>勇于探索真理是人的天职。</value>
+  </data>
+  <data name="Quote59Author" xml:space="preserve">
+    <value>热力学第一定理</value>
+  </data>
+  <data name="Quote59Text" xml:space="preserve">
+    <value>能量既不能凭空产生，也不能凭空消灭，它只能从一种形式转化为另一种形式，或者从一个物体转移到另一个物体，在转移和转化的过程中，能量的总量不变。</value>
+  </data>
+  <data name="Quote60Author" xml:space="preserve">
+    <value>刘慈欣</value>
+  </data>
+  <data name="Quote60Text" xml:space="preserve">
+    <value>什么事情都等别人做是危险的。</value>
+  </data>
+  <data name="Quote61Author" xml:space="preserve">
+    <value>刘慈欣</value>
+  </data>
+  <data name="Quote61Text" xml:space="preserve">
+    <value>美妙人生的关键在于你能迷上什么东西。</value>
+  </data>
+  <data name="Quote62Author" xml:space="preserve">
+    <value>牛顿第一定律</value>
+  </data>
+  <data name="Quote62Text" xml:space="preserve">
+    <value>一切物体总保持匀速直线运动状态或静止状态，直到有外力施加于它。</value>
+  </data>
+  <data name="Quote63Author" xml:space="preserve">
+    <value>牛顿第二定律</value>
+  </data>
+  <data name="Quote63Text" xml:space="preserve">
+    <value>物体的加速度与受到的在相同方向的作用力的大小成正比，与其质量成反比。</value>
+  </data>
+  <data name="Quote64Author" xml:space="preserve">
+    <value>牛顿第三定律</value>
+  </data>
+  <data name="Quote64Text" xml:space="preserve">
+    <value>两个物体之间的作用力和反作用力，总是同时在同一条直线上，大小相等，方向相反。</value>
+  </data>
+  <data name="Quote65Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote65Text" xml:space="preserve">
+    <value>科学方法：系统化的追求知识对于认知和规划问题的原则和程序，对观察和实验数据的收集，并将其公式化以及对假设进行测试。</value>
+  </data>
+  <data name="Quote66Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote66Text" xml:space="preserve">
+    <value>为了被定义为科学，一个探究方法必须基于经验以及符合推理的具体原则的可测量证据。</value>
+  </data>
+  <data name="Quote67Author" xml:space="preserve">
+    <value>维基百科，2077</value>
+  </data>
+  <data name="Quote67Text" xml:space="preserve">
+    <value>科学的法则或科学性的法则是对描述和预报的陈述，并可能解释出现在自然的一系列的现象。</value>
+  </data>
+  <data name="Quote68Author" xml:space="preserve">
+    <value>佚名</value>
+  </data>
+  <data name="Quote68Text" xml:space="preserve">
+    <value>对一个问题的解释逐渐深入就是科学素养的提升</value>
+  </data>
+  <data name="Quote69Author" xml:space="preserve">
+    <value>牛顿万有引力定律</value>
+  </data>
+  <data name="Quote69Text" xml:space="preserve">
+    <value>任意两个质点有通过连心线方向上的力相互吸引。该引力的大小与它们的质量乘积成正比，与它们距离的平方成反比。</value>
+  </data>
+  <data name="Quote70Author" xml:space="preserve">
+    <value>阿尔伯特·爱因斯坦</value>
+  </data>
+  <data name="Quote70Text" xml:space="preserve">
+    <value>创造力是智力的乐趣。</value>
+  </data>
+</root>

@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Description_NotAvailable" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Description_Welder" xml:space="preserve">
+    <value>用于建造和维修的工具。按住{CONTROL:ABASE:PRIMARY_TOOL_ACTION}焊接。按{CONTROL:ABASE:SECONDARY_TOOL_ACTION}将缺少的组件放入建造计划器。</value>
+  </data>
+  <data name="Description_AngleGrinder" xml:space="preserve">
+    <value>用于拆解方块的工具。按住{CONTROL:ABASE:PRIMARY_TOOL_ACTION}拆卸。</value>
+  </data>
+  <data name="Description_HandDrill" xml:space="preserve">
+    <value>能击碎石头获取矿石的工具。按住{CONTROL:ABASE:PRIMARY_TOOL_ACTION}挖掘。按住{CONTROL:ABASE:SECONDARY_TOOL_ACTION}迅速挖掘(不会产生矿石)。</value>
+  </data>
+
+  <data name="Description_BasicHandHeldLauncher" xml:space="preserve">
+    <value>肩扛式火箭筒, 可发射反装甲火箭弹</value>
+  </data>
+  <data name="Description_AdvancedHandHeldLauncher" xml:space="preserve">
+    <value>肩扛式火箭发射筒, 改良后的结构与加装的光学瞄准镜极大提升了此武器的精度</value>
+  </data>
+
+  <data name="Description_SemiAutoPistol" xml:space="preserve">
+    <value>结构简单的半自动手枪. 精度尚可, 但难以应对真正的威胁</value>
+  </data>
+  <data name="Description_FullAutoPistol" xml:space="preserve">
+    <value>改良型全自动手枪, 配有扩容弹匣, 可在短时间内朝目标倾泻大量火力</value>
+  </data>
+  <data name="Description_ElitePistol" xml:space="preserve">
+    <value>现代化战斗手枪, 具有极佳的精确度与可观的伤害, 配备有红点瞄准镜</value>
+  </data>
+
+  <data name="Description_Rifle" xml:space="preserve">
+    <value>常规型号的半自动步枪, 具有可观的精度及伤害</value>
+  </data>
+  <data name="Description_PreciseAutomaticRifle" xml:space="preserve">
+    <value>为远程作战而设计的步枪, 精度极高但射速缓慢</value>
+  </data>
+  <data name="Description_RapidFireAutomaticRifle" xml:space="preserve">
+    <value>用于火力压制的手持式机枪, 射速极高, 但后坐力巨大且精度较低</value>
+  </data>
+  <data name="Description_EliteAutomaticRifle" xml:space="preserve">
+    <value>现代化反人员步枪, 伤害较高, 并具有三发连射能力</value>
+  </data>
+
+
+  <data name="Description_LightArmor" xml:space="preserve">
+    <value>普通装甲方块,不是很坚实但是很轻。用于建造轻型结构和船只</value>
+  </data>
+  <data name="Description_HeavyArmor" xml:space="preserve">
+    <value>重型装甲方块,耐久度极高。适合作为战舰的护甲</value>
+  </data>
+  <data name="Description_AdvancedRotor" xml:space="preserve">
+    <value>可使连接在转子头上的网格旋转，并能相互输送部件。</value>
+  </data>
+  <data name="Description_AdvancedRotorPart" xml:space="preserve">
+    <value>高级转子的头部，可将其重新与转子连接。</value>
+  </data>
+  <data name="Description_AirVent" xml:space="preserve">
+    <value>排气扇可以向密闭房间充入氧气或从大气中抽取氧气。
+
+氧气可由氢氧发生器或氧气农场制造。</value>
+  </data>
+  <data name="Description_RadioAntenna" xml:space="preserve">
+    <value>天线可以用来广播位置信息，以及远程访问处于天线信号范围并装有天线的网格。</value>
+  </data>
+  <data name="Description_VirtualMass" xml:space="preserve">
+    <value>可以被人工重力推动的方块, 需要电力才能工作。</value>
+  </data>
+  <data name="Description_Assembler" xml:space="preserve">
+    <value>非常先进的机器，能制造所有种类的工具和部件。
+
+制造时需要矿锭和电力。</value>
+  </data>
+  <data name="Description_AssemblerBasic" xml:space="preserve">
+    <value>简易版本的装配机，只能制造基础工具和组件。
+
+制造时需要矿锭和电力。</value>
+  </data>
+  <data name="Description_AtmosphericThrust" xml:space="preserve">
+    <value>喷气发动机,只能在有大气的情况下工作。</value>
+  </data>
+  <data name="Description_Battery" xml:space="preserve">
+    <value>电池能存储电能，并在需要时供应给其他方块。</value>
+  </data>
+  <data name="Description_Beacon" xml:space="preserve">
+    <value>信标可以在屏幕上显示你的位置，并可以作为跃迁引擎的跃迁目标。</value>
+  </data>
+  <data name="Description_ButtonPanel" xml:space="preserve">
+    <value>按钮面板可以将方块功能绑定到按钮后进行直接操作。
+
+对准按键按{CONTROL:TERMINAL}进行配置，按{CONTROL:USE}激活。</value>
+  </data>
+  <data name="Description_Camera" xml:space="preserve">
+    <value>摄像机可用于查看远处的物体。
+
+可在飞船工具栏上设置动作进行查看，查看时可使用鼠标滚轮缩放视角。</value>
+  </data>
+  <data name="Description_SmallCargoContainer" xml:space="preserve">
+    <value>储存物品的小型货柜。</value>
+  </data>
+  <data name="Description_MediumCargoContainer" xml:space="preserve">
+    <value>储存物品的中型货柜。</value>
+  </data>
+  <data name="Description_LargeCargoContainer" xml:space="preserve">
+    <value>储存物品的大型货柜。</value>
+  </data>
+  <data name="Description_SteelCatwalk" xml:space="preserve">
+    <value>薄钢板，可以作为过道或墙壁。</value>
+  </data>
+  <data name="Description_Cockpit" xml:space="preserve">
+    <value>驾驶舱可用于控制飞船。
+
+将氧气罐或氢氧发生器与驾驶舱连接以供应氧气。</value>
+  </data>
+  <data name="Description_FighterCockpit" xml:space="preserve">
+    <value>一种重型驾驶舱，可以提供比普通驾驶舱更多的保护。
+
+将氧气罐或氢氧发生器与驾驶舱连接以供应氧气。</value>
+  </data>
+  <data name="Description_Collector" xml:space="preserve">
+    <value>收集器可用于收集物品，将收集器靠近物品即可将其吸入。</value>
+  </data>
+  <data name="Description_Connector" xml:space="preserve">
+    <value>连接器可以相互通过磁力连接，锁定后可输送物品和电力。
+
+按{CONTROL:LANDING_GEAR}或通过工具栏进行锁定/解锁。连接器在连接范围内时，指示灯会变成黄色。解锁后，它会暂时失去磁性。</value>
+  </data>
+  <data name="Description_ControlPanel" xml:space="preserve">
+    <value>简易控制面板,可访问网格菜单。
+
+按{CONTROL:TERMINAL}访问面板。</value>
+  </data>
+  <data name="Description_ControlStation" xml:space="preserve">
+    <value>用于控制飞船的座椅。</value>
+  </data>
+  <data name="Descripton_ConveyorJunction" xml:space="preserve">
+    <value>用于构建物流管线的模块。使用此方块连接其他方块的物流接口可使物品和气体在方块之间正常输送。</value>
+  </data>
+  <data name="Description_ConveyorSorter" xml:space="preserve">
+    <value>用于构建高级物流系统的模块。可设置成只允许通过某些物品或使某些物品无法通过。</value>
+  </data>
+  <data name="Description_ConveyorTube" xml:space="preserve">
+    <value>用于构建物流管线的模块。使用此方块连接其他方块的物流接口可使物品和气体在方块之间正常输送。</value>
+  </data>
+  <data name="Description_CornerLight" xml:space="preserve">
+    <value>用于照亮黑暗区域的照明装置，照明半径较小。</value>
+  </data>
+  <data name="Description_CryoChamber" xml:space="preserve">
+    <value>玩家与服务器断开后可以停留在休眠舱内。
+
+休眠舱中的玩家氧气消耗量会降低。离线时工具栏会保存。使用输送机将氧气罐、氢氧发生器或氧气农场与休眠舱连接以供应氧气。</value>
+  </data>
+  <data name="Description_Decoy" xml:space="preserve">
+    <value>诱饵可以引诱敌军自动炮塔向其开火以保护更重要的装备。</value>
+  </data>
+  <data name="Description_Door" xml:space="preserve">
+    <value>门可以将内部空间封闭并保持气密，并让玩家可以出入。</value>
+  </data>
+  <data name="Description_Drill" xml:space="preserve">
+    <value>在行星和小行星上采矿的大型工具。
+
+可以从驾驶舱手动操控。与物流连通后采集的矿石可以自动存入飞船库存中
+
+注意：工作时不要靠的太近</value>
+  </data>
+  <data name="Description_Ejector" xml:space="preserve">
+    <value>弹射器可以从小船中抛出矿石，工具或少量种类的零件。可以配合分拣传输机收集或丢弃某些物品。</value>
+  </data>
+  <data name="Description_EventController" xml:space="preserve">
+    <value>事件控制器根据方块或网格条件触发动作。</value>
+  </data>
+  <data name="Description_FlightSeat" xml:space="preserve">
+    <value>用于控制飞船的轻型座椅。</value>
+  </data>
+  <data name="Description_FullCoverWall" xml:space="preserve">
+    <value>简易装甲护墙，可用于室内防护或防止玩家跌落。</value>
+  </data>
+  <data name="Description_GatlingGun" xml:space="preserve">
+    <value>射速极快的固定式机枪。
+
+弹药：12.7mm×140 加特林机枪弹药箱
+最大射程：800m
+射速:700RPM
+弹速:400m/s
+单发伤害:150
+装填时间:4s</value>
+  </data>
+  <data name="Description_GatlingTurret" xml:space="preserve">
+    <value>搭载有速射机枪的自动炮塔，用于反制玩家或小型飞船。
+   
+弹药：12.7mm×140 加特林机枪弹药箱
+最大射程：800 m
+索敌距离: 800 m(大)/600 m(小)
+射速:700RPM
+弹速:400m /s
+单发伤害:150
+装填时间:4s</value>
+  </data>
+  <data name="Description_GravityGenerator" xml:space="preserve">
+    <value>可产生作用于玩家，物品与人工质量块/空间球的单向人工重力场。在星球的自然重力场中效果会相对不明显。</value>
+  </data>
+  <data name="Description_GravityGeneratorSphere" xml:space="preserve">
+    <value>可产生作用于玩家，物品与人工质量块/空间球的球形人工重力场。在星球的自然重力场中效果会相对不明显。</value>
+  </data>
+  <data name="Description_ShipGrinder" xml:space="preserve">
+    <value>用于拆解舰船的大型切割机。能通过驾驶舱或终端列表控制。记得使用时不要靠的太近。</value>
+  </data>
+  <data name="Description_Gyroscope" xml:space="preserve">
+    <value>陀螺仪可以通过鼠标或键盘控制飞船转向。
+
+陀螺仪越多,飞船的转向速度越快。</value>
+  </data>
+  <data name="Description_HangarDoor" xml:space="preserve">
+    <value>一种坚实的门,可作为机库门或车库门使用。
+
+此门不可直接开关,但你可以建造一个按键面板控制此门,或者用探测器实现自动开关。</value>
+  </data>
+  <data name="Description_HydrogenTank" xml:space="preserve">
+    <value>氢气罐用于储存氢燃料,以及给氢气瓶充入氢气。
+
+氢气可以用作氢推进器、氢气发电机或喷气背包的燃料。氢氧发生器可以用冰制造氢气。
+
+注意:此方块中储存有氢气时会发生爆炸。</value>
+  </data>
+  <data name="Description_HydrogenThrust" xml:space="preserve">
+    <value>一种强劲的推进器，以氢气为燃料，可在任何环境使用。
+
+注意:此推进器需要使用输送机供应氢气才可工作。</value>
+  </data>
+  <data name="Description_InteriorLight" xml:space="preserve">
+    <value>简易照明设施，用于照明中等面积的区域。</value>
+  </data>
+  <data name="Description_InteriorPillar" xml:space="preserve">
+    <value>简易立柱，用于加固结构或作为装饰。</value>
+  </data>
+  <data name="Description_InteriorTurret" xml:space="preserve">
+    <value>装有反人员机枪的自动炮塔，射程较近，弹药需要手动装填
+
+弹药：MR-50A 步枪弹匣
+最大射程：600 m
+索敌距离: 600 m
+射速:600RPM
+弹速:300m /s
+单发伤害:30</value>
+  </data>
+  <data name="Description_InteriorWall" xml:space="preserve">
+    <value>一种装饰方块，可用作内墙、天花板或地板。</value>
+  </data>
+  <data name="Description_IonThrust" xml:space="preserve">
+    <value>使用电能推进飞船的推进器，在无大气时表现最好。</value>
+  </data>
+  <data name="Description_JumpDrive" xml:space="preserve">
+    <value>跃迁引擎可通过质量传送的方式使飞船远距离航行。
+
+跃迁之前需要充能，且跃迁动作只能在驾驶舱的工具栏上激活。</value>
+  </data>
+  <data name="Description_TextPanel" xml:space="preserve">
+    <value>可显示文本，图标或脚本的显示屏。</value>
+  </data>
+  <data name="Description_LandingGear" xml:space="preserve">
+    <value>具有磁性的方块，可以吸附在任何物体表面。
+
+在驾驶舱内可以按{CONTROL:SPACESHIP:LANDING_GEAR}锁定或者解锁起落架和磁性板。在接近物体表面可以锁定时，指示灯会变为黄色，解锁后，方块将暂时失去磁性。</value>
+  </data>
+  <data name="Description_LaserAntenna" xml:space="preserve">
+    <value>一种特殊的通信设施，使用红外激光进行通信。通信前需要使用GPS坐标进行配对连接。
+    
+    玩家不会看到此天线发出的信号，但通讯时需要保证两个激光天线之间没有可以遮挡信号的物体。</value>
+  </data>
+  <data name="Description_MedicalRoom" xml:space="preserve">
+    <value>医疗室可以补充能量，恢复生命值，还能改变外观以及重生。与氢氧发生器或气罐连接后，还可以补充氧气和氢气。</value>
+  </data>
+  <data name="Description_MergeBlock" xml:space="preserve">
+    <value>合并块可暂时（或者永久）将两个网格连接起来作为一个网格使用。
+
+合并块在接近另外一个合并块时指示灯会显示黄色。</value>
+  </data>
+  <data name="Description_MissileTurret" xml:space="preserve">
+    <value>发射高爆火箭弹的炮塔。适用于轰炸基地或攻击低速目标
+    
+弹药：200mm火箭弹
+最大射程：800 m
+索敌距离: 800 m(大)/600 m(小)
+平均射速:51 RPM(大)/16 RPM(小)
+弹速:200 m/s
+单发伤害:500
+爆炸半径:4 m
+装填时间:4 s(大)/6 s(小)</value>
+  </data>
+  <data name="Description_ProductivityModule" xml:space="preserve">
+    <value>此升级模块可以加快相连设备的生产速度。必须连接在精炼厂或装配机的升级插槽上才能正常工作。</value>
+  </data>
+  <data name="Description_EffectivenessModule" xml:space="preserve">
+    <value>此升级模块能增加相连精炼厂的产量。必须连接在精炼厂的升级插槽上才能正常工作。</value>
+  </data>
+  <data name="Description_PowerEfficiencyModule" xml:space="preserve">
+    <value>此升级模块可以降低相连设备的功率要求。必须连接在精炼厂或装配机的升级插槽上才能正常工作。</value>
+  </data>
+  <data name="Description_OreDetector" xml:space="preserve">
+    <value>矿物探测器可以探测一定范围内的矿物资源并在屏幕上显示。</value>
+  </data>
+  <data name="Description_OxygenFarm" xml:space="preserve">
+    <value>氧气农场可利用光合作用产生少量氧气。</value>
+  </data>
+  <data name="Description_OxygenGenerator" xml:space="preserve">
+    <value>氢氧发生器可以用冰制造氧气和氢气,并可以自动给氢气/氧气瓶充气。
+
+氧气/氢气可使用氧气罐/氢气罐储存。</value>
+  </data>
+  <data name="Description_OxygenTank" xml:space="preserve">
+    <value>氧气罐可以储存氧气,并给氧气瓶充入氧气。
+
+氧气可使用氢氧发生器或氧气农场制造。</value>
+  </data>
+  <data name="Description_ParachuteHatch" xml:space="preserve">
+    <value>此方块可在大气层中打开降落伞减缓下降速度。
+
+降落伞可以设置成自动展开,也可以在工具栏或者设置中手动操作。</value>
+  </data>
+  <data name="Description_Passage" xml:space="preserve">
+    <value>一种装饰方块，可以作为供人员通行的通道</value>
+  </data>
+  <data name="Description_PassengerSeat" xml:space="preserve">
+    <value>普通乘客座椅,无法控制飞船。</value>
+  </data>
+  <data name="Description_Piston" xml:space="preserve">
+    <value>可以延伸的活塞，能够输送电力和物品。</value>
+  </data>
+  <data name="Description_PistonTop" xml:space="preserve">
+    <value>活塞的顶部。它没有自己的功能，但可以作为装饰使用。</value>
+  </data>
+  <data name="Description_ProgrammableBlock" xml:space="preserve">
+    <value>运行脚本的电脑,可以管理飞船系统。
+
+可以使用创意工坊中现有的脚本，或者自己编写程序。</value>
+  </data>
+  <data name="Description_Projector" xml:space="preserve">
+    <value>投影仪可通过蓝图投影出飞船结构，配合焊接器模块可实现自动化建造。
+
+投影需要与网格连接才可建造。</value>
+  </data>
+  <data name="Description_Ramp" xml:space="preserve">
+    <value>1x2斜坡</value>
+  </data>
+  <data name="Description_Reactor" xml:space="preserve">
+    <value>反应堆可以使用提炼的铀锭产生大量电力。
+铀是宇宙中最稀有的元素之一，并且无法在类地行星上找到。可以在小行星表面和陨石撞击形成的陨石坑中找到铀。
+
+注意：此方块被摧毁时会引发剧烈爆炸</value>
+  </data>
+  <data name="Description_Refinery" xml:space="preserve">
+    <value>高级精炼设施，能将所有种类的矿石精炼成矿锭。
+
+可以用升级模块升级。</value>
+  </data>
+  <data name="Description_RefineryBasic" xml:space="preserve">
+    <value>一种简易精炼厂,只能将基础矿物炼成矿锭。</value>
+  </data>
+  <data name="Description_RocketLauncherReload" xml:space="preserve">
+    <value>固定式火箭发射器，发射高爆火箭弹，可使用物流系统自动装填。适用于轰炸基地或攻击低速目标。
+    
+弹药：120mm火箭弹
+最大射程：800 m
+平均射速:60 RPM
+弹速:200 m /s
+单发伤害:500
+爆炸半径:4 m</value>
+  </data>
+  <data name="Description_RemoteControl" xml:space="preserve">
+    <value>此方块可以使飞船自动飞行至指定GPS坐标，和天线连接后，还可以远程控制飞船。</value>
+  </data>
+  <data name="Description_RocketLauncher" xml:space="preserve">
+    <value>固定式火箭发射器，发射高爆火箭弹，需要手动装填。适用于轰炸基地或攻击低速目标。
+    
+弹药：120mm火箭弹
+最大射程：800 m
+平均射速:60 RPM
+弹速:200 m /s
+单发伤害:500
+爆炸半径:4 m</value>
+  </data>
+  <data name="Description_Rotor" xml:space="preserve">
+    <value>可使连接在转子头上的网格旋转。</value>
+  </data>
+  <data name="Description_RotorPart" xml:space="preserve">
+    <value>转子的头部，可将其重新与转子连接。</value>
+  </data>
+  <data name="Description_Sensor" xml:space="preserve">
+    <value>可调式传感器，可在一定的范围内检测玩家，飞船或者小行星等物体并触发飞船系统。</value>
+  </data>
+  <data name="Description_SolarPanel" xml:space="preserve">
+    <value>将太阳能转化成电能的发电装置。
+
+将太阳能板对准太阳提高发电效率。</value>
+  </data>
+  <data name="Description_Sound" xml:space="preserve">
+    <value>此方块激活后能发出声音。可用于警报或播放音乐</value>
+  </data>
+  <data name="Description_SpaceBall" xml:space="preserve">
+    <value>可以被人工重力场推动的方块, 需要电力才能工作。
+    
+可通过调节此方块的虚拟质量改变其受人工重力场的推力大小。</value>
+  </data>
+  <data name="Description_ReflectorLight" xml:space="preserve">
+    <value>大型照明设备,可照亮大片区域。</value>
+  </data>
+  <data name="Description_Stairs" xml:space="preserve">
+    <value>1x2楼梯，让玩家上下楼。</value>
+  </data>
+  <data name="Description_Timer" xml:space="preserve">
+    <value>能定时对飞船发出指令的简易装置。
+
+使用多个定时器方块设定好顺序依次触发可以实现简单的自动控制。</value>
+  </data>
+  <data name="Description_Warhead" xml:space="preserve">
+    <value>一种很强的爆炸物，可以轻易摧毁小行星，敌舰和基地
+
+弹头激活前仅能定时引爆。激活后，弹头受到攻击或碰撞时会自动爆炸。</value>
+  </data>
+  <data name="Description_ShipWelder" xml:space="preserve">
+    <value>大型舰载焊接器，可以用库存中的部件修理方块或建造投影。开启后即可自动进行焊接。
+
+注意：使用时不要靠的太近。</value>
+  </data>
+  <data name="Description_Wheel" xml:space="preserve">
+    <value>固定式车轮，将其与转子连接后可用于制作简易车辆。</value>
+  </data>
+  <data name="Description_Suspension" xml:space="preserve">
+    <value>自带电机的悬架系统，用于驱动车辆并使其穿越各种复杂地形。</value>
+  </data>
+  <data name="Description_Window" xml:space="preserve">
+    <value>气密的透明窗户，用于欣赏外面的风景。</value>
+  </data>
+  <data name="Description_VerticalWindow" xml:space="preserve">
+    <value>透气的窗户,可以作为护栏阻挡工程师进入。</value>
+  </data>
+  <data name="Description_DiagonalWindow" xml:space="preserve">
+    <value>透气的斜窗,可以当楼梯使用。</value>
+  </data>
+  <data name="Description_SurvivalKit" xml:space="preserve">
+    <value>一体化工厂，工程师可以从这里开始，但是精炼和装配能力有限。可以在此充电。</value>
+  </data>
+  <data name="Description_WindTurbine" xml:space="preserve">
+    <value>风力发电机在空旷处能发少量电。只能在有大气层的行星上使用。合理布局并在较高的地方放置效率更高。</value>
+  </data>
+  <data name="Description_PowerGenerator" xml:space="preserve">
+    <value>用氢气驱动产生电力的发电机。</value>
+  </data>
+  <data name="Description_Ladder" xml:space="preserve">
+    <value>可供攀爬的钢制直梯。</value>
+  </data>
+  <data name="Description_Desk" xml:space="preserve">
+    <value>带有椅子的桌子。</value>
+  </data>
+  <data name="Description_DeskCorner" xml:space="preserve">
+    <value>带有椅子的桌角。</value>
+  </data>
+  <data name="Description_DeskChairless" xml:space="preserve">
+    <value>不带椅子的桌子。</value>
+  </data>
+  <data name="Description_DeskChairlessCorner" xml:space="preserve">
+    <value>不带椅子的桌角。</value>
+  </data>
+  <data name="Description_FoodDispenser" xml:space="preserve">
+    <value>售卖饮品的自动售货机。</value>
+  </data>
+  <data name="Description_Jukebox" xml:space="preserve">
+    <value>播放音乐的设备,可通过按键切换曲目。</value>
+  </data>
+  <data name="Description_OpenCockpitLarge" xml:space="preserve">
+    <value>用于控制大型飞船的重型控制座椅。</value>
+  </data>
+  <data name="Description_OpenCockpitSmall" xml:space="preserve">
+    <value>简易控制座椅，可控制小型的车辆或飞船，坐上去非常舒适。</value>
+  </data>
+  <data name="Description_LabEquipment" xml:space="preserve">
+    <value>太空实验室中必备的实验设备，对于工程师而言仅剩下了装饰作用。</value>  </data>
+  <data name="Description_Shower" xml:space="preserve">
+    <value>为宇航员设计的浴室,在零重力环境下也可清洁身体。可作为装饰</value>
+  </data>
+  <data name="Description_WindowWall" xml:space="preserve">
+    <value>装有透明玻璃的气密装甲护墙。</value>
+  </data>
+  <data name="Description_WindowWallLeft" xml:space="preserve">
+    <value>装有透明玻璃的气密装甲护墙。</value>
+  </data>
+  <data name="Description_WindowWallRight" xml:space="preserve">
+    <value>装有透明玻璃的气密装甲护墙。</value>
+  </data>
+  <data name="Description_MedicalStation" xml:space="preserve">
+    <value>具有磁共振成像和断层扫描功能的医疗设施,可代替太空服检查身体受伤状况。可作为装饰</value>
+  </data>
+  <data name="Description_TransparentLCD" xml:space="preserve">
+    <value>全透明的液晶显示屏。</value>
+  </data>
+  <data name="Description_RailingStraight" xml:space="preserve">
+    <value>简易钢制护栏</value>
+  </data>
+  <data name="Description_RailingDouble" xml:space="preserve">
+    <value>简易钢制护栏</value>
+  </data>
+  <data name="Description_RailingCorner" xml:space="preserve">
+    <value>简易钢制护栏</value>
+  </data>
+  <data name="Description_RailingDiagonal" xml:space="preserve">
+    <value>简易钢制护栏</value>
+  </data>
+  <data name="Description_GratedCatwalk" xml:space="preserve">
+    <value>透气的简易钢制过道</value>
+  </data>
+  <data name="Description_GratedCatwalkCorner" xml:space="preserve">
+    <value>透气的简易钢制过道</value>
+  </data>
+  <data name="Description_GratedCatwalkStraight" xml:space="preserve">
+    <value>透气的简易钢制过道</value>
+  </data>
+  <data name="Description_GratedCatwalkWall" xml:space="preserve">
+    <value>透气的简易钢制过道</value>
+  </data>
+  <data name="Description_GratedStairs" xml:space="preserve">
+    <value>简易钢制楼梯</value>
+  </data>
+  <data name="Description_GratedHalfStairs" xml:space="preserve">
+    <value>简易钢制楼梯</value>
+  </data>
+  <data name="Description_RotatingLight" xml:space="preserve">
+    <value>自带转子的微型聚光灯,便于警示工程师。</value>
+  </data>
+  <data name="Description_Freight" xml:space="preserve">
+    <value>简易钢制货箱，容量较小
+    注意：所有人都可以打开此方块的物品栏，因此不要将贵重物品存入此方块</value>
+  </data>
+  <data name="Description_Kitchen" xml:space="preserve">
+    <value>带有电磁炉和微波炉的烹饪设施，对于工程师而言仅剩下了装饰作用。</value>
+  </data>
+  <data name="Description_Planters" xml:space="preserve">
+    <value>用于在太空中培育植物的种植盆，可作为装饰。</value>
+  </data>
+  <data name="Description_Lockers" xml:space="preserve">
+    <value>储存私人用品及生活必需品的简易柜子。</value>
+  </data>
+  <data name="Description_LockerRoom" xml:space="preserve">
+    <value>可以储存工具，武器，弹药和气罐的储藏室</value>
+  </data>
+  <data name="Description_LockerRoomCorner" xml:space="preserve">
+    <value>可以储存工具，武器，弹药和气罐的柜子</value>
+  </data>
+  <data name="Description_Couch" xml:space="preserve">
+    <value>高级乘客座椅，坐上去非常舒适。</value>
+  </data>
+  <data name="Description_CornerCouch" xml:space="preserve">
+    <value>高级乘客座椅，坐上去非常舒适。</value>
+  </data>
+  <data name="Description_Bathroom" xml:space="preserve">
+    <value>为工程师设计的厕所，具有一整套污水处理系统。可作为座椅使用</value>
+  </data>
+  <data name="Description_BathroomOpen" xml:space="preserve">
+    <value>为工程师设计的厕所，具有一整套污水处理系统。可作为座椅使用</value>
+  </data>
+  <data name="Description_ToiletSeat" xml:space="preserve">
+    <value>为工程师设计的厕所座椅。</value>
+  </data>
+  <data name="Description_Console" xml:space="preserve">
+    <value>大型投影桌，可投影出飞船和基站的全息影像，还能在显示屏上显示文本、图像或脚本。</value>
+  </data>
+  <data name="Description_CockpitIndustrial" xml:space="preserve">
+    <value>耐用的重型驾驶舱,可以提供比普通驾驶舱更多的防护。
+
+将氧气罐或氢氧发生器与驾驶舱连接以供应氧气。</value>
+  </data>
+  <data name="Description_Bed" xml:space="preserve">
+    <value>床在含有氧气的环境中可以替代休眠舱使用。
+
+床上的玩家氧气消耗量会降低。离线时其库存和工具栏会保存。而且在含有氧气的环境中可维持玩家生命。</value>
+  </data>
+  <data name="Description_StoreBlock" xml:space="preserve">
+    <value>商店系统的终端，可以在此处购买或出售物品。</value>
+  </data>
+  <data name="Description_SafeZone" xml:space="preserve">
+    <value>此方块可消耗安全区芯片生成球状或方形的能量力场,保护内部的网格免受伤害。</value>
+  </data>
+  <data name="Description_ContractBlock" xml:space="preserve">
+    <value>合同系统的终端，用于管理合同任务。
+    
+合同是一类可由玩家或NPC发起的任务，完成后会得到奖励</value>
+  </data>
+  <data name="Description_Datapad" xml:space="preserve">
+    <value>信息板能够存储并显示信息。</value>
+  </data>
+  <data name="Description_Medkit" xml:space="preserve">
+    <value>医疗箱中装有全套医疗设施,可恢复生命值。</value>
+  </data>
+  <data name="Description_Package" xml:space="preserve">
+    <value>只是一个普通的箱子而已,绝对不包含[数据删除]或者其他什么玩意。
+什么都别问,只管把它交给我们的客户就行。
+
+这个箱子不会发出任何奇怪的声音,包括猫叫声。
+
+箱子不会动,不要再问了。
+
+</value>
+  </data>
+  <data name="Description_Powerkit" xml:space="preserve">
+    <value>便携备用电池包，可以给宇航服充电。</value>
+  </data>
+  <data name="Description_SpaceCredit" xml:space="preserve">
+    <value>用于交易的货币。</value>
+  </data>
+  <data name="Description_AtmBlock" xml:space="preserve">
+    <value>自动柜员机,用于存款或取款</value>
+  </data>
+  <data name="Description_VendingMachine" xml:space="preserve">
+    <value>用于出售物品的自动售货机。</value>
+  </data>
+  <data name="Description_ClangKola" xml:space="preserve">
+    <value>蕴含着无尽K力的饮料, 没有人知道这东西是怎么做出来的
+
+"据说把这玩意倒在飞船上能让飞船原地起飞"</value>
+  </data>
+  <data name="Description_CosmicCoffee" xml:space="preserve">
+    <value>含有大量K力的饮料。具有提神醒脑, 活血化瘀等功效
+
+"这下我更睡不着了"</value>
+  </data>
+  <data name="Description_ControlSeat" xml:space="preserve">
+    <value>控制座椅是适用于大型和小型网格的驾驶舱方块，允许你控制网格。非常舒适，但不能供应氧气。</value>
+  </data>
+  <data name="Description_DeadEngineer" xml:space="preserve">
+    <value>不幸遇难的工程师的遗体。</value>
+  </data>
+  <data name="Description_Gate" xml:space="preserve">
+    <value>用于通道、车库或小型机库的大型强化气密门，耐久度极高。</value>
+  </data>
+  <data name="Description_SciFiWall" xml:space="preserve">
+    <value>一种装饰性方块，可用作内墙、天花板或地板。</value>
+  </data>
+  <data name="Description_NeonTubes" xml:space="preserve">
+    <value>可发光的装饰方块，发光颜色随方块颜色而改变。</value>
+  </data>
+  <data name="Description_Letters" xml:space="preserve">
+    <value>字母形方块</value>
+  </data>
+  <data name="Description_Numbers" xml:space="preserve">
+    <value>数字形方块</value>
+  </data>
+  <data name="Description_Symbols" xml:space="preserve">
+    <value>符号形方块</value>
+  </data>
+  <data name="Description_AntennaDish" xml:space="preserve">
+    <value>巨大的碟型增益天线，可用于广播位置信息，以及远程访问处于天线信号范围并装有天线的网格。</value>
+  </data>
+  <data name="Description_OffsetDoor" xml:space="preserve">
+    <value>门可以将内部空间封闭并保持气密，并让玩家可以出入。</value>
+  </data>
+  <data name="Description_Hinge" xml:space="preserve">
+    <value>可以输送物品的铰链，最大旋转自由度为180°。</value>
+  </data>
+  <data name="Description_HingeHead" xml:space="preserve">
+    <value>铰链头，可以重新连接到铰链。</value>
+  </data>
+  <data name="Description_BarCounter" xml:space="preserve">
+    <value>提供饮品的吧台，可作为装饰。</value>
+  </data>
+  <data name="Description_TextBlocks" xml:space="preserve">
+    <value>字母、数字和符号形方块。</value>
+  </data>
+  <data name="Description_ExhaustPipe" xml:space="preserve">
+    <value>可产生烟，火，电弧等粒子效果的装饰性方块。</value>
+  </data>
+  <data name="Description_BuggyCockpit" xml:space="preserve">
+    <value>带有防撞钢筋框架的紧凑型驾驶舱。</value>
+  </data>
+  <data name="Description_RoverCockpit" xml:space="preserve">
+    <value>为小型探测车和飞船设计的紧凑型敞篷驾驶舱。</value>
+  </data>
+  <data name="Description_OffsetLight" xml:space="preserve">
+    <value>用于照亮黑暗区域的照明设施。</value>
+  </data>
+  <data name="Description_BarredWindow" xml:space="preserve">
+    <value>由铁条制成的透气窗户。</value>
+  </data>
+  <data name="Description_StorageShelf" xml:space="preserve">
+    <value>存放零件的储物架，使用切割机拆解以取下储物架上的零件。</value>
+  </data>
+  <data name="Description_ViewPort" xml:space="preserve">
+    <value>装有透明玻璃的气密装甲护墙。</value>
+  </data>
+  <data name="Description_WeaponRack" xml:space="preserve">
+    <value>储存武器和弹药的柜子。</value>
+  </data>
+  <data name="Description_TargetingSystemBlock" xml:space="preserve">
+    <value>瞄准系统方块描述</value>
+  </data>
+  <data name="Description_FireCover" xml:space="preserve">
+    <value>简易装甲护墙，可提供少量防护，或防止玩家跌落。</value>
+  </data>
+  <data name="Description_Embrasure" xml:space="preserve">
+    <value>提供少量防护的掩体，可通过其上的射击孔向外射击。</value>
+  </data>
+  <data name="Description_TargetDummy" xml:space="preserve">
+    <value>用于练习或测试手持武器的装置，可设置假人被击中或被摧毁时执行的动作，假人被摧毁后可自动消耗钢板进行维修。</value>
+  </data>
+  <data name="Description_MagneticPlate" xml:space="preserve">
+    <value>WIP stickyBlock</value>
+  </data>
+  <data name="Description_BeamBlock" xml:space="preserve">
+    <value>用作装饰或结构支撑的方块，不是很坚实但是很轻。</value>
+  </data>
+  <data name="Description_Autocannon" xml:space="preserve">
+    <value>中等射速的固定式自动机炮，具有出色的破坏力。适合作为小型载具的主武器使用
+
+弹药：25mm×16 机炮弹匣
+最大射程：800 m
+平均射速:150 RPM
+弹速:400 m/s
+单发伤害:500
+</value>
+  </data>
+  <data name="Description_LargeTurretControlBlock" xml:space="preserve">
+    <value>用于控制自定义炮塔的方块</value>
+  </data>
+  <data name="Description_Searchlight" xml:space="preserve">
+    <value>铰接式聚光灯，可以自动瞄准附近网格，并带有摄像头。</value>
+  </data>
+  <data name="Description_HeatVent" xml:space="preserve">
+    <value>一种装饰方块，当飞船耗电功率增加时会打开并发光。</value>
+  </data>
+  <data name="Description_LargeCalibreTurret" xml:space="preserve">
+    <value>具有厚重装甲的大型炮塔，搭载有双联装远程火炮，射速较慢，单发拥有极高威力
+    
+弹药：63mm 重型火炮穿甲弹
+最大射程：2000 m
+索敌距离: 800 m
+平均射速:9.4 RPM
+弹速:500 m/s
+单发伤害:17000
+装填时间:12 s</value>
+  </data>
+  <data name="Description_MediumCalibreTurret" xml:space="preserve">
+    <value>装有中型突击火炮的炮塔，适合在中等距离下与装甲目标作战
+
+弹药：38mm 突击火炮穿甲弹
+最大射程：1400 m
+索敌距离: 800 m(大)/600 m(小)
+平均射速:19 RPM(大)/10 RPM(小)
+弹速:500 m/s
+单发伤害:4000
+装填时间:6 s</value>
+  </data>
+  <data name="Description_Railgun" xml:space="preserve">
+    <value>固定式远程狙击电磁炮，耗能巨大且充能时间极长，可发射超高速飞行的穿甲炮弹
+
+弹药：152mm 大型轨道炮穿甲弹
+最大射程：2000 m
+平均射速:0.92 RPM
+弹速:2000 m/s
+单发伤害:50000
+耗能:38 MW
+充能时间:60 s</value>
+  </data>
+  <data name="Description_BlastDoor" xml:space="preserve">
+    <value>防爆门方块可与活塞、转子或铰链等机械方块组合制作自定义门，也可作为装甲块使用。</value>
+  </data>
+  <data name="Description_TurretControlBlock" xml:space="preserve">
+    <value>自定义炮塔控制器能够控制由转子和/或铰链制作的自定义炮塔。
+
+自定义炮塔至少需要一个转子/铰链和一个武器/工具/摄像机才能正常工作。</value>
+  </data>
+  <data name="Description_HeavyCalibreGun" xml:space="preserve">
+    <value>固定式重型远程火炮，射速较慢，单发拥有极高威力
+    
+弹药：63mm 重型火炮穿甲弹
+最大射程：2000 m
+平均射速:5.0 RPM
+弹速:500 m/s
+单发伤害:17000
+装填时间:12 s</value>
+  </data>
+  <data name="Description_MediumCalibreGun" xml:space="preserve">
+    <value>固定式中型突击火炮，适合在中等距离下与装甲目标作战
+
+弹药：38mm 突击火炮穿甲弹
+最大射程：1400 m
+平均射速:10 RPM
+弹速:500 m/s
+单发伤害:4000
+装填时间:6 s</value>
+  </data>
+  <data name="Description_CockpitStandingBridge" xml:space="preserve">
+    <value>一种站立操作的控制站，可以控制飞船。</value>
+  </data>
+  <data name="Description_AutoCannonTurret" xml:space="preserve">
+    <value>中等射速的自动机炮炮塔，具有出色的破坏力。适合作为小型载具的主武器使用
+
+弹药：25mm×16 机炮弹匣
+最大射程：800 m
+平均射速:150 RPM
+弹速:400 m/s
+单发伤害:500</value>
+  </data>
+  <data name="Description_SmallRailgun" xml:space="preserve">
+    <value>固定式电磁轨道炮，耗能巨大且充能时间长，可发射高速飞行的穿甲炮弹
+
+弹药：31mm 小型轨道炮穿甲弹
+最大射程：1400 m
+平均射速:2.9 RPM
+弹速:1000 m/s
+单发伤害:8000
+耗能:3.6 MW
+充能时间:20 s</value>
+  </data>
+  <data name="Description_LargeRocketLauncher" xml:space="preserve">
+    <value>固定式火箭发射器，可快速发射大量高爆火箭弹，可使用物流系统自动装填。适用于轰炸基地或攻击低速目标。
+    
+弹药：120mm火箭弹
+最大射程：800 m
+平均射速:66 RPM
+弹速:200 m /s
+单发伤害:500
+爆炸半径:4 m</value>
+  </data>
+  <data name="Description_EngineerPlushie" xml:space="preserve">
+    <value>工程师形状的毛绒玩具。
+
+无法制作或拆卸。</value>
+  </data>
+  
+  
+  
+  
+  
+  <data name="Description_BasicMissionBlock" xml:space="preserve">
+    <value>类型：任务
+
+此类型可用于基本的可定制AI任务。它可以跟随玩家，跟随并在原位附近游荡，或者执行自动驾驶功能。</value>
+  </data>
+  <data name="Description_FlightMovementBlock" xml:space="preserve">
+    <value>类型：移动
+
+此类型使用可用推进器和陀螺仪控制AI网格的运动。与其他AI类型的方块一起使用，它会尝试将网格移动到其他AI方块提供的位标。
+
+需要一个活动的移动类型方块来进行AI网格移动。</value>
+  </data>
+  <data name="Description_DefensiveCombatBlock" xml:space="preserve">
+    <value>类型：战斗
+
+此类型可以检测并锁定敌人网格，最远可达2500m。此外，它还可以设置为在检测到敌人时逃往预定位置。
+
+当检测到敌人时，此方块优先于任何活动的任务类型方块。</value>
+  </data>
+  <data name="Description_OffensiveCombatBlock" xml:space="preserve">
+    <value>类型：战斗
+
+此类型可以使用可自定义的攻击模式检测、锁定目标并与最远2500m处的敌方网格交战。
+
+当检测到敌人时，此方块优先于任何活动的任务类型方块。</value>
+  </data>
+  <data name="Description_PathRecorderBlock" xml:space="preserve">
+    <value>类型：任务
+
+此类型可以记录路径和动作序列。如果设置了参考，则此路径可以相对于另一个网格进行记录。随后可以重播此路径和序列，前提是网格上有可用移动类型方块。</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  <data name="Description_AccessPanel" xml:space="preserve">
+    <value>隐藏结构和飞船内部电气系统的装饰性面板。</value>
+  </data>
+  <data name="Description_SignBlocks" xml:space="preserve">
+    <value>印有标志信息，注意事项或警告标语的告示牌。</value>
+  </data>
+  <data name="Description_AirDucts" xml:space="preserve">
+    <value>用于通风或检修的管道。</value>
+  </data>
+  <data name="Description_AccesPanel" xml:space="preserve">
+    <value>隐藏结构和飞船内部电气系统的装饰性面板。</value>
+  </data>
+  <data name="Description_SpeederCockpit" xml:space="preserve">
+    <value>小型摩托驾驶座，用于控制飞船。</value>
+  </data>
+  <data name="Description_EmotionController" xml:space="preserve">
+    <value>高级LCD面板，可以显示表情符号，并可将表情复制到其他LCD面板和屏幕。</value>
+  </data>
+  <data name="Description_SabiroidPlushie" xml:space="preserve">
+    <value>太空蜘蛛形状的毛绒玩具。
+
+无法制作或拆卸。</value>
+  </data>
+
+</root>

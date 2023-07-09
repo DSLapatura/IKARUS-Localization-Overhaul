@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="ContractScreen_Deliver_Description_0" xml:space="preserve">
+    <value>要给我们的客户送急件，我们在找合适的人选。
+接受此合同，你需要付担保金。
+若无法及时完成合同，客户会不满意你的担保金也会损失。
+我们确定你能做到。</value>
+  </data>
+  <data name="ContractScreen_Deliver_Description_1" xml:space="preserve">
+    <value>我们的合作伙伴断货没法给客户供应。
+他们要我们尽快补货。
+需要担保才能接受此合同，如果不能及时补货，他们会收取担保金。</value>
+  </data>
+  <data name="ContractScreen_Deliver_Description_2" xml:space="preserve">
+    <value>有很紧急的事情，我们要找很有能力的送件员
+接受此合同需要担保。你会得到丰厚的报酬，但如果无法完成任务，担保金不退。
+时间紧迫，你愿意吗？</value>
+  </data>
+
+
+
+  <data name="ContractScreen_Escort_Description_0" xml:space="preserve">
+    <value>有一个货船船长报告受到威胁无法前行。
+我们需要人去护送直到危机解除。
+我们会给你相应的报酬。你接受这任务吗？</value>
+  </data>
+  <data name="ContractScreen_Escort_Description_1" xml:space="preserve">
+    <value>附近的运输舰遭遇危险需要救援
+赶快奔赴救援保证他们的安全。
+事成之后，你会得到丰厚的报酬。</value>
+  </data>
+  <data name="ContractScreen_Escort_Description_2" xml:space="preserve">
+    <value>看起来我们的竞争者想耍滑头来击败我们。
+保护我们的货船。事成之后，你会得到丰厚的报酬。</value>
+  </data>
+  <data name="ContractScreen_Escort_Description_3" xml:space="preserve">
+    <value>有一个运输船出现技术故障,某些坏人好像盯上了它。
+保护这架运输船。让坏人们再三考虑。干得好的话，会得到丰富的报酬。</value>
+  </data>
+
+
+
+
+  <data name="ContractScreen_Find_Description_0" xml:space="preserve">
+    <value>一个货箱在转送过程中丢失了，我们的客户急切地要求找到它。去往其最后确认的所在地附近，找回它。</value>
+  </data>
+  <data name="ContractScreen_Find_Description_1" xml:space="preserve">
+    <value>因为导航问题，我们的货物投递出错，我们只知道一个大概的地方。我们需要有人能找回它，不然就会别人捡到了便宜。</value>
+  </data>
+  <data name="ContractScreen_Find_Description_2" xml:space="preserve">
+    <value>我们需要人去提一个秘密件，确切地址不明，我们需要你去找到它，找到之后，我们会给你报酬。</value>
+  </data>
+  <data name="ContractScreen_Find_Description_3" xml:space="preserve">
+    <value>我们的客户在找人搜寻一个丢失的货舱。我们只知道其大概位置，需要你去找到它。事成之后会给你报酬。</value>
+  </data>
+  <data name="ContractScreen_Find_Description_4" xml:space="preserve">
+    <value>有一艘运输船丢下一个货箱干扰尾随者。虽然这没什么用，但是我们想要知道货箱里面有什么。找到这个货箱，我们会负责将其取回。</value>
+
+
+
+
+  <data name="ContractScreen_Hunt_Description_0" xml:space="preserve">
+    <value>我们收到多宗犯罪报告，需要你去捉拿罪犯，避免更多的人受害。
+我们会及时更新目标的所在地，拿起你的武器解决他，确保违法必究。</value>
+  </data>
+  <data name="ContractScreen_Hunt_Description_1" xml:space="preserve">
+    <value>好像有人为了让自己出名做了一些伤害别人的事情，这令我们的客户非常恼火。
+我们刚刚收到了他们的最新行踪报告。如果你抓到他们并将其铲除，你将会得到奖赏。
+为了弄清楚是谁在捣乱，我们更想你用手持武器搞定他，作为回报，我们会给你付更高的报酬。
+我们会持续给你提供最新的位置帮助你解决他们。你愿意接受这差事吗？</value>
+  </data>
+  <data name="ContractScreen_Hunt_Description_2" xml:space="preserve">
+    <value>有人现在总爱找麻烦，我们需要有胆量的人去对付他。
+我们会给你目标的最后出现的位置。去找到他，把他搞定。
+如果你将其用手持武器击杀，你会得到更高的报酬。</value>
+  </data>
+
+
+
+  <data name="ContractScreen_ObtainDeliver_Description_0" xml:space="preserve">
+    <value>一个客户委托我们将一些货物发到这里，他们会来取。
+去取货然后发到这里。我们会给你足够的报酬。</value>
+  </data>
+  <data name="ContractScreen_ObtainDeliver_Description_1" xml:space="preserve">
+    <value>这座基站需要维护，但是我们缺少这些物品。
+如果可以提供上述物品，你会得到丰厚的报酬。</value>
+  </data>
+  <data name="ContractScreen_ObtainDeliver_Description_2" xml:space="preserve">
+    <value>和代理沟通出现问题，导致有些货供不上。
+帮助我们重新供货，你会得到相应的报酬。</value>
+  </data>
+  <data name="ContractScreen_ObtainDeliver_Description_3" xml:space="preserve">
+    <value>一些库存无法满足需求。
+需要收购上述货品，我们会全额给你付款。</value>
+  </data>
+  <data name="ContractScreen_ObtainDeliver_Description_4" xml:space="preserve">
+    <value>我们有好几个买家对我们的产品有兴趣，可是没法供应。
+现在我们需要这些货品，我们会全额给你付款。</value>
+  </data>
+  <data name="ContractScreen_ObtainDeliver_Description_5" xml:space="preserve">
+    <value>这些商品的需求量近期很高，我们快卖完了。
+想帮助我们吗？你会得到丰厚的报酬。</value>
+  </data>
+
+
+  <data name="ContractScreen_Repair_Description_0" xml:space="preserve">
+    <value>我们的设备在最近的流星雨中严重受损，现在需要维修。
+需要你将其修复，保证设备全部运行正常。</value>
+  </data>
+  <data name="ContractScreen_Repair_Description_1" xml:space="preserve">
+    <value>我们最近丢失了与我们设备的无线电连接。需要你去检查并修复所有的问题，我们会和你结算费用。</value>
+  </data>
+  <data name="ContractScreen_Repair_Description_2" xml:space="preserve">
+    <value>最近海盗无人机总会攻击我们的设备。去检查设备，并将其修复至最佳状态。</value>
+  </data>
+  <data name="ContractScreen_Repair_Description_3" xml:space="preserve">
+    <value>一艘货船的导航系统出现错误，导致其撞到我们的设备。
+需要你检查设备并将其修复。我们会和你结算费用。</value>
+  </data>
+  <data name="ContractScreen_Repair_Description_4" xml:space="preserve">
+    <value>我们会重新启用一些当前无法运行的设备。需要你去将其修复，我们会和你结算费用。</value>
+  </data>
+  <data name="ContractScreen_Repair_Description_5" xml:space="preserve">
+    <value>设备需要检修。需要你去将其彻底检查，并维修损坏的部分。</value>
+  </data>
+</root>
